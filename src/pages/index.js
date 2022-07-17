@@ -1,5 +1,8 @@
 import * as React from "react"
-import Nav from "../components/Nav"
+import './index.css'
+
+// component imports
+import Nav from "../components/Nav/Nav"
 
 const IndexPage = () => {
   return (
