@@ -6,10 +6,12 @@ import Nav from "../components/Nav/Nav"
 import Hero from "../components/Hero/Hero"
 
 const IndexPage = () => {
-    <div>
+    return (
+    <div className="page">
         <Nav />
         <Hero />
-    </div>
+    </div>  
+    )
 }
 
 export default IndexPage
