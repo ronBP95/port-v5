@@ -1,0 +1,7 @@
+.socialbar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 7.5vw;
+    background-color: blue;
+}

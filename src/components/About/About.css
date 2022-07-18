@@ -1,0 +1,18 @@
+.aboutpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: green;
+    width: 100vw;
+    height: 90vh;
+}
+
+.aboutwords {
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    height: 30rem;
+    background-color: blue;
+}
