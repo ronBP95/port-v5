@@ -1,14 +1,16 @@
 .navbar {
+    position: absolute;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid black;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #logo {
-
+    margin-left: 3em;
 }
 
 .navmenu {
@@ -17,15 +19,22 @@
     align-items: center;
     list-style: none;
     /* background: blue; */
-    margin-right: 1em;
+    margin-right: 3em;
 }
 
 .navitems {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navspan {
+    color: blue;
 }
 
 #resumebutton {
-    margin-left: 15px;
+    margin-left: 17.5px;
     border: 1px solid black;
+    border-radius: 5px;
+    padding: 12.5px;
+    color: blue;
 }

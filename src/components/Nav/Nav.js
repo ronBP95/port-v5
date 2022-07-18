@@ -5,13 +5,13 @@ const Nav = () => {
     return (
         <div className='navbar'>
             <div id="logo">
-                <div>Logo</div>
+                <div>Ron M</div>
             </div>
             <ul className='navmenu'>
-                <li className='navitems'>01. About</li>
-                <li className='navitems'>02. Experience</li>
-                <li className='navitems'>03. Work</li>
-                <li className='navitems'>04. Contact</li>
+                <li className='navitems'><span className='navspan'>01.</span> About</li>
+                <li className='navitems'><span className='navspan'>02.</span> Experience</li>
+                <li className='navitems'><span className='navspan'>03.</span> Work</li>
+                <li className='navitems'><span className='navspan'>04.</span> Contact</li>
                 <div id="resumebutton">Resume</div>
             </ul>
         </div>
