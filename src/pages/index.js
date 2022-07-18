@@ -3,11 +3,13 @@ import './index.css'
 
 // component imports
 import Nav from "../components/Nav/Nav"
+import Hero from "../components/Hero/Hero"
 
 const IndexPage = () => {
-  return (
-    <Nav />
-  )
+    <div>
+        <Nav />
+        <Hero />
+    </div>
 }
 
 export default IndexPage
