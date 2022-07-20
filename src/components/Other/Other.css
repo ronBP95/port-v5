@@ -1,11 +1,11 @@
-.worked {
+.other {
     display: flex;
     z-index: 100;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    background: pink;
+    background: rebeccapurple;
     width: 85vw;
     height: 100vh;
 }

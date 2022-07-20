@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     position: fixed;
-    z-index: 5;
+    z-index: 1000;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid white;
@@ -9,7 +9,7 @@
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: white;
+    color: lightgray;
 }
 
 #logo {
@@ -28,16 +28,25 @@
 .navitems {
     padding-left: 1em;
     padding-right: 1em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.navitems:hover {
+    transition: 0.3s;
+    color: #64ffda;
+    cursor: pointer;
 }
 
 .navspan {
-    color: blue;
+    color: #64ffda;
+    cursor: pointer;
 }
 
 #resumebutton {
     margin-left: 17.5px;
-    border: 1px solid black;
+    border: 1px solid #64ffda;
     border-radius: 5px;
     padding: 12.5px;
-    color: blue;
+    color: #64ffda;
 }

@@ -1,11 +1,11 @@
-.worked {
+.featured {
     display: flex;
     z-index: 100;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
-    background: pink;
+    background: teal;
     width: 85vw;
     height: 100vh;
 }
