@@ -3,14 +3,20 @@
     padding: 0;
 }
 
+body {
+    background-color: #0a192f;
+}
+
 .page {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
-.pageContent {
+.sidebar {
     display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+    justify-content: space-between;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
 }

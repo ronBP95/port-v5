@@ -6,13 +6,13 @@
     position: relative;
     background: green;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 }
 
-.aboutwords {
+/* .aboutwords {
     display: flex;
     justify-content: space-between;
     width: 50rem;
     height: 30rem;
     background-color: blue;
-}
+} */

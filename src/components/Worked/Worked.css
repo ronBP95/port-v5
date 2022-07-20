@@ -1,0 +1,10 @@
+.worked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: pink;
+    width: 100vw;
+    height: 100vh;
+}
