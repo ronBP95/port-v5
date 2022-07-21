@@ -1,5 +1,6 @@
 .heropage {
     display: flex;
+    z-index: 100;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
@@ -26,6 +27,7 @@
 #name {
     font-size: 4.5em;
     color: white;
+    margin-top: 0.3em;
 }
 
 #subName {
@@ -38,6 +40,8 @@
     line-height: 1.5em;
     width: 30vw;
     color: #8892b0;
+    font-size: 1.1em;
+    margin-top: 1em;
 }
 
 #company {
@@ -52,7 +56,7 @@
     border-radius: 5px;
     width: 12.5vw;
     font-size: 14pt;
-    margin-top: 20px;
+    margin-top: 2em;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #64ffda;

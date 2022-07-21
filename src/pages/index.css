@@ -3,6 +3,18 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #0a192f;
 }

@@ -1,4 +1,4 @@
-.aboutpage {
+#about {
     display: flex;
     z-index: 100;
     justify-content: center;
