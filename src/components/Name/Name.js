@@ -4,7 +4,10 @@ import './Name.css'
 const Name = () => {
     return (
         <div className='namebar'>
-            <p>Name</p>
+            <ul id="namelist">
+                <p className='rotateimg180'>ron.magpantay</p>
+                <div id="namevl"></div>
+            </ul>
         </div>
     )
 }

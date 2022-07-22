@@ -52,11 +52,11 @@
     padding: 12.5px;
     color: #64ffda;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #resumebutton:hover {
-    color: white;
-    background-color: #a8b2d1;
+    background-color: #233554;
     transition: 0.3s;
 }
 
