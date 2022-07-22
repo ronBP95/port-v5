@@ -1,11 +1,12 @@
 import React from 'react';
 import './Nav.css'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Nav = () => {
     return (
         <div className='navbar'>
             <div id="logo">
-                <div><a href='#top'>Ron</a></div>
+                <div><a href='#top'>R</a></div>
             </div>
             <ul className='navmenu'>
                 <li className='navitems'><span className='navspan'>01.</span> About</li>
@@ -15,7 +16,7 @@ const Nav = () => {
                 <div id="resumebutton">Resume</div>
             </ul>
             <div id="dropdown">
-                <p>Dropdown</p>
+                <p><GiHamburgerMenu /></p>
             </div>
         </div>
     )
