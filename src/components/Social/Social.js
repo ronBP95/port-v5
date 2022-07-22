@@ -5,10 +5,10 @@ import { FiGithub, FiLinkedin, FiCodepen } from "react-icons/fi";
 const Social = () => {
     return (
         <div className='socialbar'>
-            <ul>
-                <li id="github"><FiGithub/></li>
-                <li id="linkedin"><FiLinkedin /></li>
-                <li id="codepen"><FiCodepen /></li>
+            <ul className='socials'>
+                <a id="github" href="hhttps://github.com/ronBP95" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
+                <a id="linkedin" href="https://www.linkedin.com/in/ron-magpantay/" target="_blank" rel="noreferrer noopener"><FiLinkedin /></a>
+                <a id="codepen" href="http://www.codepen.io" target="_blank" rel="noreferrer noopener"><FiCodepen /></a>
                 <div id="vl"></div>
             </ul>
         </div>
