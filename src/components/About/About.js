@@ -6,16 +6,30 @@ const About = () => {
         <div id='about'>
             <div className="aboutwords">
                 <div className="aboutText">
-                    <div>
-                        <p>01. About Me ----------------</p>
+                    <div className='aboutHeader'>
+                        <p>01. About Me</p>
+                        <div id='sideline'></div>
                     </div>
                     
                     <div>
-                        <p> Inner text will go here.</p>
+                        <p> Hello! My name is Ron Magpantay and I love building things on the web. My interest in web development began back in 2015 where I learned how to work with HTML + CSS to build a mock sales page for my favorite cars.</p>
+                        <p> Fast-forward to today, I've learned how to code and build out websites and databases, provided development services for a non-profit organization, and interned for an engineering team at a multivitamin startup.</p>
                     </div>
                     
                     <div>
-                        <p> Technologies will go here.</p>
+                        <p> Here are some of the technnologies I have been working with recently:</p>
+                        <div id="techlist">
+                            <ul>
+                                <li>Javascript</li>
+                                <li>Ruby</li>
+                                <li>Gatsby</li>
+                            </ul>
+                            <ul>
+                                <li>React</li>
+                                <li>Express</li>
+                                <li>Mongo</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 

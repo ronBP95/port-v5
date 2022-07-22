@@ -10,10 +10,37 @@
     height: 100vh;
 }
 
-/* .aboutwords {
+.aboutwords {
     display: flex;
-    justify-content: space-between;
-    width: 50rem;
-    height: 30rem;
+    flex-direction: row;
+}
+
+.aboutText {
+    background-color: red;
+    height: 65vh;
+    width: 40vw;
+}
+
+.aboutHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
-} */
+    width: 40vw;
+}
+
+#sideline {
+    border-top: 1px solid white;
+    width: 100px;
+}
+
+#techlist {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutpic {
+    background-color: yellow;
+    width: 30vw;
+}
