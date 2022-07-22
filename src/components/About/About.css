@@ -42,5 +42,14 @@
 
 .aboutpic {
     background-color: yellow;
-    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+#monke {
+    height: 20em;
+    width: 20em;
+    border-radius: 0.25em;
 }
