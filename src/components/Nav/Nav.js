@@ -14,6 +14,9 @@ const Nav = () => {
                 <li className='navitems'><span className='navspan'>04.</span> Contact</li>
                 <div id="resumebutton">Resume</div>
             </ul>
+            <div id="dropdown">
+                <p>Dropdown</p>
+            </div>
         </div>
     )
 }

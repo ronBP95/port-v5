@@ -59,3 +59,21 @@
     background-color: #a8b2d1;
     transition: 0.3s;
 }
+
+#dropdown {
+    display: none;
+    margin-right: 2.5em;
+    color: #64ffda;
+}
+
+@media screen and (max-width: 800px) {
+    .navitems {
+        display: none;
+    }
+    #resumebutton {
+        display: none;
+    }
+    #dropdown {
+        display: inline;
+    }
+}
