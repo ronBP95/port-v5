@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    background: green;
+    /* background: green; */
     width: 85vw;
     height: 100vh;
 }
@@ -16,40 +16,84 @@
 }
 
 .aboutText {
-    background-color: red;
+    /* background-color: red; */
     height: 65vh;
     width: 40vw;
+    font-size: 1.2em;
+}
+
+#aboutnum {
+    color: #64ffda;
 }
 
 .aboutHeader {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
     width: 40vw;
+    height: 10vh;
+    font-size: 2.1vw;
+    color: #ccd6f6;
 }
 
 #sideline {
-    border-top: 1px solid white;
-    width: 100px;
+    border-top: 1px solid #8892b0;
+    width: 13em;
+    margin-left: 0.5em;
+}
+
+.aboutDesc {
+    color: #8892b0;
+}
+
+.techDesc {
+    color: #8892b0;
 }
 
 #techlist {
     display: flex;
     flex-direction: row;
+    list-style-position: inside;
 }
 
 .aboutpic {
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 64vh;
+    margin-left: 15px;
+}
+
+.aboutUl {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.arrow {
+    font-size: 8px;
+    color: #64ffda;
 }
 
 #monke {
     height: 20em;
     width: 20em;
     border-radius: 0.25em;
+    border: 2px solid #64ffda;
+}
+
+@media screen and (max-width: 800px) {
+    .aboutwords {
+        flex-direction: column;
+    }
+    .aboutText {
+        width: 75vw;
+    }
+    .aboutpic {
+        margin-left: 0;
+    }
 }

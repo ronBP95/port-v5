@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css'
 import monke from '../../images/monke.jpg'
+import { BiRightArrow } from 'react-icons/bi'
 
 const About = () => {
     return (
@@ -8,27 +9,32 @@ const About = () => {
             <div className="aboutwords">
                 <div className="aboutText">
                     <div className='aboutHeader'>
-                        <p>01. About Me</p>
+                        <p><span id="aboutnum">01.</span> About Me</p>
                         <div id='sideline'></div>
                     </div>
                     
-                    <div>
+                    <div className='aboutDesc'>
+                        <br></br>
                         <p> Hello! My name is Ron Magpantay and I love building things on the web. My interest in web development began back in 2015 where I learned how to work with HTML + CSS to build a mock sales page for my favorite cars.</p>
+                        <br></br>
                         <p> Fast-forward to today, I've learned how to code and build out websites and databases, provided development services for a non-profit organization, and interned for an engineering team at a multivitamin startup.</p>
                     </div>
                     
-                    <div>
+                    <div className='techDesc'>
+                        <br></br>
                         <p> Here are some of the technnologies I have been working with recently:</p>
+                        <br></br>
+                        <br></br>
                         <div id="techlist">
-                            <ul>
-                                <li>Javascript</li>
-                                <li>Ruby</li>
-                                <li>Gatsby</li>
+                            <ul className='aboutUl'>
+                                <li><BiRightArrow className='arrow'/> Javascript (ES6+)</li>
+                                <li><BiRightArrow className='arrow'/> Ruby</li>
+                                <li><BiRightArrow className='arrow'/> Gatsby</li>
                             </ul>
-                            <ul>
-                                <li>React</li>
-                                <li>Express</li>
-                                <li>Mongo</li>
+                            <ul className='aboutUl'>
+                                <li><BiRightArrow className='arrow'/> React</li>
+                                <li><BiRightArrow className='arrow'/> Express</li>
+                                <li><BiRightArrow className='arrow'/> Mongo</li>
                             </ul>
                         </div>
                     </div>
