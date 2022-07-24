@@ -40,7 +40,6 @@ const About = () => {
                     </div>
                 </div>
 
-
                 <div className='aboutpic'>
                     <img src={monke} id='monke'></img>
                 </div>

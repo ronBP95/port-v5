@@ -87,13 +87,27 @@
 }
 
 @media screen and (max-width: 800px) {
+    #about {
+        margin-bottom: 10em;
+    }
     .aboutwords {
         flex-direction: column;
+        height: 100vh;
+        /* background-color: green; */
+    }
+    .aboutHeader {
+        /* background-color: green; */
+        width: 20em;
+        height: 5em;
+        font-size: 1em;
     }
     .aboutText {
         width: 75vw;
     }
     .aboutpic {
         margin-left: 0;
+    }
+    #monke {
+        margin-top: 5em;
     }
 }
