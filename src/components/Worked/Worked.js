@@ -19,7 +19,14 @@ const Worked = () => {
                     </ul>
                 </div>
                 <div className='workedJobs'>
-                    <p>Here is where the content will go</p>
+                    <h2>Position @ Company</h2>
+                    <p>January - February</p>
+                    <br></br>
+                    <ul className='jobDescription'>
+                        <li>Descriptions go here</li>
+                        <li>Descriptions go here</li>
+                        <li>Descriptions go here</li>
+                    </ul>
                 </div>
             </div>
         </div>
