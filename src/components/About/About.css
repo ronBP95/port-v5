@@ -7,7 +7,7 @@
     position: relative;
     /* background: green; */
     width: 85vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 .aboutwords {
@@ -84,9 +84,10 @@
     width: 20em;
     border-radius: 0.25em;
     border: 2px solid #64ffda;
+    margin-left: 100px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     #about {
         margin-bottom: 10em;
     }
@@ -109,5 +110,6 @@
     }
     #monke {
         margin-top: 5em;
+        margin-left: 0;
     }
 }
