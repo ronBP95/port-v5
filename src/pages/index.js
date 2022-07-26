@@ -18,6 +18,8 @@ import Contact from "../components/Contact/Contact"
 import Social from "../components/Social/Social"
 import Name from "../components/Name/Name"
 
+
+
 const IndexPage = () => {
     return (
     <div className="page">
