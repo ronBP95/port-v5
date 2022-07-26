@@ -10,14 +10,12 @@ const Worked = () => {
             </div>
             <br></br>
             <div className='workedContent'>
-                <div className='workedNav'>
-                    <ul>
-                        <li>nav</li>
-                        <li>nav</li>
-                        <li>nav</li>
-                        <li>nav</li>
-                    </ul>
-                </div>
+                <ul className='workedNav'>
+                    <li>Ritual</li>
+                    <li>One Community</li>
+                    <li>Johnson&Johnson </li>
+                    <li>Uber</li>
+                </ul>
                 <div className='workedJobs'>
                     <h2>Position @ Company</h2>
                     <p>January - February</p>

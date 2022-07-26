@@ -36,7 +36,11 @@
     /* background-color: blue; */
 }
 
-.workedNav ul {
+.workedNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     background-color: green;
     width: 10em;
