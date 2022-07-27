@@ -13,7 +13,7 @@ const Worked = () => {
                 <ul className='workedNav'>
                     <li>Ritual</li>
                     <li>One Community</li>
-                    <li>Johnson&Johnson </li>
+                    <li>Johnson&Johnson</li>
                     <li>Uber</li>
                 </ul>
                 <div className='workedJobs'>
