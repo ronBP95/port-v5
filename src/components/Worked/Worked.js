@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Worked.css'
 
 const Worked = () => {
+    // active classname function
+    const [activeJob, setActiveJob] = useState(false);
+
     return (
         <div className='worked'>
             <div className='workedHeader'>
@@ -11,10 +14,10 @@ const Worked = () => {
             <br></br>
             <div className='workedContent'>
                 <ul className='workedNav'>
-                    <li>Ritual</li>
-                    <li>One Community</li>
-                    <li>Johnson & Johnson</li>
-                    <li>Uber</li>
+                    <li className='jobItem'>Ritual</li>
+                    <li className='jobItem'>One Community</li>
+                    <li className='jobItem'>Johnson & Johnson</li>
+                    <li className='jobItem'>Uber</li>
                 </ul>
                 <div className='workedJobs'>
                     <h2>Position @ Company</h2>
