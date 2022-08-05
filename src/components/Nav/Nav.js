@@ -9,10 +9,10 @@ const Nav = () => {
                 <div><a href='#top'>R</a></div>
             </div>
             <ul className='navmenu'>
-                <li className='navitems'><span className='navspan'>01.</span> About</li>
-                <li className='navitems'><span className='navspan'>02.</span> Experience</li>
-                <li className='navitems'><span className='navspan'>03.</span> Work</li>
-                <li className='navitems'><span className='navspan'>04.</span> Contact</li>
+                <li className='navitems'><span className='navspan'>01.</span> <a href='#about'>About</a></li>
+                <li className='navitems'><span className='navspan'>02.</span> <a href='#experience'>Experience</a></li>
+                <li className='navitems'><span className='navspan'>03.</span> <a>Work</a></li>
+                <li className='navitems'><span className='navspan'>04.</span> <a>Contact</a></li>
                 <div id="resumebutton">Resume</div>
             </ul>
             <div id="dropdown">
