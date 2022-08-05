@@ -5,9 +5,6 @@ const Worked = () => {
 
 const [activeTab, setActiveTab] = useState(1)
 
-// Active State Conditionals
-let description = "nothing right now";
-
 const firstJob = () => {
     setActiveTab(1)
 }
@@ -24,6 +21,8 @@ const fourthJob = () => {
     setActiveTab(4)
 }
 
+let description = "nothing right now";
+
 if (activeTab === 1) {
     description = 1;
 } else if (activeTab === 2) {
@@ -35,7 +34,6 @@ if (activeTab === 1) {
 } else {
     description = "Something went wrong"
 }
-
     return (
         <div className='worked'>
             <div className='workedHeader'>
