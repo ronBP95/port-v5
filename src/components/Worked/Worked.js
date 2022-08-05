@@ -1,7 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Worked.css'
 
 const Worked = () => {
+
+const [activeTab, setActiveTab] = useState(1)
+
+// Active State Conditionals
+let description = "nothing right now";
+
+const firstJob = () => {
+    setActiveTab(1)
+}
+
+const secondJob = () => {
+    setActiveTab(2)
+}
+
+const thirdJob = () => {
+    setActiveTab(3)
+}
+
+const fourthJob = () => {
+    setActiveTab(4)
+}
+
+if (activeTab === 1) {
+    description = 1;
+} else if (activeTab === 2) {
+    description = 2;
+} else if (activeTab === 3) {
+    description = 3;
+} else if (activeTab === 4) {
+    description = 4;
+} else {
+    description = "Something went wrong"
+}
 
     return (
         <div className='worked'>
@@ -12,13 +45,13 @@ const Worked = () => {
             <br></br>
             <div className='workedContent'>
                 <ul className='workedNav'>
-                    <li className='jobItem'><a>Ritual</a></li>
-                    <li className='jobItem'><a>One Community</a></li>
-                    <li className='jobItem'><a>Johnson & Johnson</a></li>
-                    <li className='jobItem'><a>Uber</a></li>
+                    <li className='jobItem' onClick={firstJob}>Ritual</li>
+                    <li className='jobItem' onClick={secondJob}>One Community</li>
+                    <li className='jobItem' onClick={thirdJob}>Johnson & Johnson</li>
+                    <li className='jobItem' onClick={fourthJob}>Uber</li>
                 </ul>
                 <div className='workedJobs'>
-                    
+                    {description}
                 </div>
             </div>
         </div>
