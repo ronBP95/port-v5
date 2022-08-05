@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './Worked.css'
 
 const Worked = () => {
-    // active classname function
-    const [activeJob, setActiveJob] = useState(false);
 
     return (
         <div className='worked'>
