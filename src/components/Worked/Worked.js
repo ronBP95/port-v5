@@ -1,5 +1,21 @@
+import { graphql } from 'gatsby';
 import React, { useState } from 'react';
 import './Worked.css'
+
+// Query for MDX
+export const query = graphql`
+query jobs {
+    allMdx {
+      nodes {
+        frontmatter {
+          title
+          date
+          position
+        }
+      }
+    }
+  }
+`
 
 const Worked = () => {
 
