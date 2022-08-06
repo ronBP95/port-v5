@@ -1,45 +1,48 @@
-import { graphql } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 import React, { useState } from 'react';
 import './Worked.css'
 
+const Worked = () => {
 // Query for MDX
-export const query = graphql`
+const data = useStaticQuery(graphql`
 query MyQuery {
     allMdx {
       nodes {
         frontmatter {
-          company
-          position
+          title
           date
         }
+        body
       }
     }
   }
-`
+`)
 
-const Worked = () => {
+// for testing
+console.log(data.allMdx.nodes[0].body)
 
-const [activeTab, setActiveTab] = useState(1)
+const [activeTab, setActiveTab] = useState(0)
 
 const firstJob = () => {
-    setActiveTab(1)
+    setActiveTab(0)
 }
 
 const secondJob = () => {
-    setActiveTab(2)
+    setActiveTab(1)
 }
 
 const thirdJob = () => {
-    setActiveTab(3)
+    setActiveTab(2)
 }
 
 const fourthJob = () => {
-    setActiveTab(4)
+    setActiveTab(3)
 }
 
-let description = "nothing right now";
+let description;
 
-if (activeTab === 1 || 2 || 3 || 4) {
+if (activeTab === 0 || 1 || 2 || 3) {
     description = activeTab;
 } else {
     description = "Something went wrong"
@@ -60,7 +63,10 @@ if (activeTab === 1 || 2 || 3 || 4) {
                     <li className='jobItem' onClick={fourthJob}>Uber</li>
                 </ul>
                 <div className='workedJobs'>
-                    {description}
+                    {data.allMdx.nodes[activeTab].frontmatter.title}
+                    <div>
+                    {data.allMdx.nodes[activeTab].frontmatter.date}
+                    </div>
                 </div>
             </div>
         </div>
