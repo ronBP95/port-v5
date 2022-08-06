@@ -4,13 +4,13 @@ import './Worked.css'
 
 // Query for MDX
 export const query = graphql`
-query jobs {
+query MyQuery {
     allMdx {
       nodes {
         frontmatter {
-          title
-          date
+          company
           position
+          date
         }
       }
     }
@@ -39,14 +39,8 @@ const fourthJob = () => {
 
 let description = "nothing right now";
 
-if (activeTab === 1) {
-    description = 1;
-} else if (activeTab === 2) {
-    description = 2;
-} else if (activeTab === 3) {
-    description = 3;
-} else if (activeTab === 4) {
-    description = 4;
+if (activeTab === 1 || 2 || 3 || 4) {
+    description = activeTab;
 } else {
     description = "Something went wrong"
 }
