@@ -5,7 +5,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 const Jobs = (props) => {
     const data = useStaticQuery(graphql`
     query MyQuery {
-        allMdx {
+        allMdx(sort: {fields: frontmatter___order, order: ASC}) {
           nodes {
             frontmatter {
               title
@@ -13,7 +13,7 @@ const Jobs = (props) => {
             }
           }
         }
-      }      
+      }     
     `)
     console.log(props.data + "is here")
     return (
