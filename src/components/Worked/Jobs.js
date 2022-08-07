@@ -18,7 +18,7 @@ const Jobs = (props) => {
     console.log(props.data + "is here")
     return (
         <div>
-            {data.allMdx.nodes[props.data].frontmatter.date}
+            {data.allMdx.nodes[props.data].frontmatter.title}
         </div>
     );
 }
