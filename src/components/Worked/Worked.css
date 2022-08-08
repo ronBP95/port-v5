@@ -6,17 +6,22 @@
     position: relative;
     /* background: pink; */
     width: 50vw;
-    height: 70vh;
+    height: 80vh;
     color: white;
 }
 
 .workedHeader {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
     /* background-color: blue; */
+    width: 50vw;
+}
+
+.workedHeader p {
+    /* background-color: red; */
+    min-width: 10em;
 }
 
 #workednum {
@@ -24,10 +29,10 @@
 }
 
 #workline {
-    width: 200px;
+    width: 100vw;
     border-bottom: 1px solid gray;
     color: black;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .workedContent {
@@ -75,12 +80,68 @@
 }
 
 .workedJobs {
-    background-color: blue;
-    width: 40em;
+    /* background-color: green; */
 }
 
 .jobDescription {
     font-size: 16pt;
 }
 
-
+@media screen and (max-width: 1000px) {
+    .worked {
+        display: flex;
+        z-index: 100;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        /* background: pink; */
+        width: 50vw;
+        height: 65vh;
+        color: white;
+    }
+    .workedNav {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* background-color: green; */
+        height: 50px;
+        width: 80vw;
+        min-width: 40em;
+        margin-right: 0;
+        margin-top: -20px;
+        margin-bottom: 25px;
+    }
+    .workedContent {
+        flex-direction: column;
+        align-items: center;
+        /* background-color: blue; */
+        width: 30em;
+    }
+    .workedHeader {
+        justify-content: center;
+        align-items: center;
+        width: 10em;
+        height: 1em;
+    }
+    #workednum {
+        margin-left: 8px;
+    }
+    .jobItem {
+        border-left: 0;
+        height: 50px;
+        width: 150px;
+        /* background-color: red; */
+        padding-left: 0px;
+        margin-left: 0px;
+        font-size: 12pt;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid white;
+    }
+    #workline {
+        display: none;
+    }
+    .workedJobs {
+        width: 80vw;
+    }
+}

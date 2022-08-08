@@ -17,6 +17,7 @@ html {
 
 body {
     background-color: #0a192f;
+    min-width: 500px;
 }
 
 .page {

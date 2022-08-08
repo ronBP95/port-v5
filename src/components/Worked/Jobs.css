@@ -10,9 +10,18 @@
 .jobDesc {
     margin-top: 1.5em;
     text-align: left;
-    list-style-position: inside;
+    font-size: 1.25em;
+    margin-left: 15px;
+    color: #8892b0;
 }
 
 .jobDesc li {
-    list-style-type: 'none';
+    list-style-type: '▸';
+    padding-inline-start: 1ch;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jobDesc li::marker {
+    color: #64ffda;
 }
