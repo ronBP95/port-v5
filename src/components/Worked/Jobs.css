@@ -1,0 +1,18 @@
+.companyTitle {
+    color: #64ffda;
+}
+
+.jobDate {
+    color: #a8b2d1;
+    margin-top: 0.5em;    
+}
+
+.jobDesc {
+    margin-top: 1.5em;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.jobDesc li {
+    list-style-type: 'none';
+}

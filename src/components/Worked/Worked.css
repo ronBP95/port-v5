@@ -33,6 +33,7 @@
 .workedContent {
     display: flex;
     flex-direction: row;
+    margin-top: 1.5em;
     /* background-color: blue; */
 }
 
@@ -74,11 +75,12 @@
 }
 
 .workedJobs {
-    /* background-color: blue; */
+    background-color: blue;
     width: 40em;
 }
 
 .jobDescription {
     font-size: 16pt;
 }
+
 
