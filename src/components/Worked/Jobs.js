@@ -9,17 +9,29 @@ const Jobs = (props) => {
           nodes {
             frontmatter {
               title
+              position
               date
             }
+            id
+            body
           }
         }
       }     
     `)
+    let node = data.allMdx.nodes[props.data]
     console.log(props.data + "is here")
     return (
+      <div>
         <div>
-            {data.allMdx.nodes[props.data].frontmatter.title}
+          <p>{node.frontmatter.position} @ {node.frontmatter.title} </p>
         </div>
+        <div>
+          {node.frontmatter.date}
+        </div>
+        <div>
+          <MDXRenderer>{node.body}</MDXRenderer>
+        </div>
+      </div>  
     );
 }
 
