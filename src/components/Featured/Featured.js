@@ -4,7 +4,9 @@ import './Featured.css'
 const Featured = () => {
     return (
         <div className='featured'>
-            <p>Featured</p>
+            <div className='featuredHeader'>
+                <p>03. Some Things I've Worked On</p>
+            </div>
         </div>
     )
 }
