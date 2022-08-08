@@ -54,7 +54,7 @@
     margin-right: 35px;
 }
 
-.jobItem {  
+.jobItem {
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -99,6 +99,7 @@
         height: 65vh;
         color: white;
     }
+
     .workedNav {
         flex-direction: row;
         justify-content: center;
@@ -111,21 +112,25 @@
         margin-top: -20px;
         margin-bottom: 50px;
     }
+
     .workedContent {
         flex-direction: column;
         align-items: center;
         /* background-color: blue; */
         width: 30em;
     }
+
     .workedHeader {
         justify-content: center;
         align-items: center;
         width: 10em;
         height: 1em;
     }
+
     #workednum {
         margin-left: 8px;
     }
+
     .jobItem {
         border-left: 0;
         height: 50px;
@@ -138,9 +143,11 @@
         align-items: center;
         border-bottom: 1px solid white;
     }
+
     #workline {
         display: none;
     }
+
     .workedJobs {
         width: 80vw;
     }
