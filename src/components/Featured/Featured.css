@@ -33,3 +33,16 @@
     background-color: blue;
     height: 45vh;
 }
+
+.projectImage {
+    max-height: 10px;
+    max-width: 10px;
+}
+
+.projectText {
+    text-align: right;
+}
+
+.offsetText {
+    text-align: left;
+}

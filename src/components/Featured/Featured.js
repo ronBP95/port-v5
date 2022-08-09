@@ -1,6 +1,9 @@
 import React from 'react';
 import './Featured.css'
 
+// Image imports
+import buhay from '../../images/buhay.jpg'
+
 const Featured = () => {
     
     return (
@@ -11,7 +14,7 @@ const Featured = () => {
             <div className='featuredCont'>
                 <div className='alignedProjects'>
                     <div className='projectImage'>
-                        <p>left aligned image goes here</p>
+                        <img src={buhay} />
                     </div>
                     <div className='projectText'>
                         <p>Featured Project</p>
@@ -22,14 +25,12 @@ const Featured = () => {
                     </div>
                 </div>
                 <div className='alignedProjects'>
-                    <div className='projectText'>
-                    <div className='projectText'>
+                    <div className='offsetText'>
                         <p>Featured Project</p>
                         <p>Project Name</p>
                         <p>Text Box</p>
                         <p>Technologies</p>
                         <p>Icon Links</p>
-                    </div>
                     </div>
                     <div className='projectImage'>
                         <p>right aligned image goes here</p>
