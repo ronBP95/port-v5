@@ -34,9 +34,15 @@
     height: 45vh;
 }
 
+.projectImageCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .projectImage {
-    max-height: 10px;
-    max-width: 10px;
+    height: 35vh;
+    width: 40vw;
 }
 
 .projectText {
