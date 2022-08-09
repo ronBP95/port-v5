@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
     width: 85vw;
     height: 100vh;
 }
