@@ -12,7 +12,8 @@ const Featured = () => {
     return (
         <div className='featured'>
             <div className='featuredHeader'>
-                <p>03. Some Things I've Worked On</p>
+                <p><span className='featuredNum'>03.</span> Some Things I've Worked On</p>
+                <div id='featuredLine'></div>
             </div>
             <div className='featuredCont'>
                 <div className='alignedProjects'>
@@ -20,30 +21,30 @@ const Featured = () => {
                         <img src={buhay} className="projectImage"/>
                     </div>
                     <div className='projectText'>
-                        <h4>Featured Project</h4>
-                        <h2>Buhay Pomodoro</h2>
+                        <div className='headerCont'>
+                            <h4 className='projectHeader'>Featured Project</h4>
+                            <h2 className='projectName'>Buhay Pomodoro</h2>
+                        </div>
                         <div className='textBox'>
-                            <p>Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, 
-                            this course covers everything from explaining the principles of REST APIs to implementing Spotify's 
-                            OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed 
-                            to the internet you can add to your portfolio.</p>
+                            <p>Buhay Pomodoro is an application built with the React framework that was built to replicate the productivity application "LifeAt Spaces". The goal of this application was to gain experience working with React as well as attempting to replicate the LifeAt Spaces application in both the frontend and backend.</p>
                         </div>
                         <div className='projectTech'>
                             <p>React</p>
                             <p>Express</p>
                             <p>Firebase</p>
-                            <p>Gatsby</p>
                         </div>
                         <div className='projectSocials'>
-                            <a id="github" href="https://github.com/ronBP95" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
-                            <a id="github" href="https://github.com/ronBP95" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                            <a id="github" href="https://github.com/ronBP95/buhay_pomo" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
+                            <a id="github" href="https://buhay-pomo.web.app/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
                         </div>
                     </div>
                 </div>
                 <div className='offsetProject'>
                     <div className='offsetText'>
-                        <h4>Featured Project</h4>
-                        <h2>Project Name</h2>
+                        <div className='headerCont'>
+                            <h4 className='projectHeader'>Featured Project</h4>
+                            <h2 className='projectName'>Project Name</h2>
+                        </div>
                         <div className='offsetTextBox'>
                             <p>Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
                             Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, 
@@ -52,14 +53,14 @@ const Featured = () => {
                             to the internet you can add to your portfolio.</p>
                         </div>
                         <div className='offsetTech'>
-                            <p>React</p>
                             <p>Express</p>
-                            <p>Spotify</p>
-                            <p>Gatsby</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Postman</p>
                         </div>
                         <div className='offsetSocials'>
-                            <p>GitHub</p>
-                            <p>Source Link</p>
+                        <a id="github" href="https://github.com/ronBP95/Project-One---Pokemon" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
+                            <a id="github" href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
                         </div>
                     </div>
                     <div className='offsetImageCont'>
@@ -71,23 +72,22 @@ const Featured = () => {
                         <img src={pokemon} className="projectImage"/>
                     </div>
                     <div className='projectText'>
-                        <h4>Featured Project</h4>
-                        <h2>Project Name</h2>
+                        <div className='headerCont'>
+                            <h4 className='projectHeader'>Featured Project</h4>
+                            <h2 className='projectName'>Project Pokemon</h2>
+                        </div>
                         <div className='textBox'>
-                            <p>Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, 
-                            this course covers everything from explaining the principles of REST APIs to implementing Spotify's 
-                            OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed 
-                            to the internet you can add to your portfolio.</p>
+                            <p>Project Pokemon is the first project that I completed during my time at General Assembly. Our assignment was to build out a game of any type and I instantly envisioned a browser based replica of the hit Pokemon games Red + Blue.</p>
                         </div>
                         <div className='projectTech'>
-                            <p>React</p>
-                            <p>Express</p>
-                            <p>Spotify</p>
-                            <p>Gatsby</p>
+                            <p>Javascript</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Blockchain (SIA)</p>
                         </div>
                         <div className='projectSocials'>
-                            <p>GitHub</p>
-                            <p>Source Link</p>
+                            <a id="github" href="https://github.com/ronBP95/Project-One---Pokemon" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
+                            <a id="github" href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const IndexPage = () => {
         <About />
         <Worked />
         <Featured />
-        <Other />
+        {/* <Other /> */}
         <Contact />
         <div className="sidebar">
             <Social />

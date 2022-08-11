@@ -7,12 +7,31 @@
     /* background: teal; */
     width: 75vw;
     height: 175vh;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .featuredHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 75vw;
-    background-color: red;
+    /* background-color: red; */
+    color: white;
+    font-size: 1.5em;
+}
+
+.featuredHeader p {
+    min-width: 400px;
+}
+
+.featuredNum {
+    color: #64ffda;
+}
+
+#featuredLine {
+    border-top: 1px solid #8892b0;
+    width: 30em;
+    margin-left: -0.5em;
 }
 
 .featuredCont {
@@ -22,7 +41,7 @@
     width: 75vw;
     height: 175vh;
     min-height: 1590px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .alignedProjects {
@@ -30,7 +49,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     color: white;
-    background-color: blue;
+    /* background-color: blue; */
     height: 45vh;
     width: 100%;
 }
@@ -52,16 +71,35 @@
     display: flex;
     flex-direction: column;
     text-align: right;
-    background-color: yellow;
-    height: 25vh;
-    width: 40vw;
+    /* background-color: yellow; */
+    height: 30vh;
+    width: 35vw;
     grid-column: 2 / -1;
     justify-self: right;
     align-self: center;
 }
 
+.headerCont {
+    margin-bottom: 1.2em;
+}
+
+.projectHeader {
+    margin-bottom: 0.5em;
+    color: #64ffda;
+}
+
+.projectName {
+    color: #ccd6f6;
+}
+
 .textBox {
-    background-color: #0a192f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #112240;
+    padding: 2em;
+    height: 10em;
+    border-radius: 0.5em;
 }
 
 .projectImageCont, .projectText {
@@ -71,8 +109,12 @@
 .projectTech {
     display: flex;
     flex-direction: row;
+    justify-content: end;
     text-align: right;
-    background-color: pink;
+    padding: 1em;
+    padding-right: 0;
+    /* background-color: pink; */
+    color: #a8b2d1;
 }
 
 .projectTech p {
@@ -83,7 +125,13 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
-    background-color: red;
+    /* background-color: red; */
+    font-size: 1.3em;
+    color:#ccd6f6;
+}
+
+.projectSocials a {
+    margin-left: 1em;
 }
 
 .projectSocials p {
@@ -98,7 +146,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     color: white;
-    background-color: pink;
+    /* background-color: pink; */
     height: 45vh;
     width: 100%;
 }
@@ -110,7 +158,7 @@
     grid-column: 1 / 3;
     order: 1;
     width: 75vw;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .offsetImage {
@@ -123,8 +171,8 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    background-color: yellow;
-    height: 25vh;
+    /* background-color: yellow; */
+    height: 30vh;
     width: 40vw;
     grid-column: 2 / -1;
     align-self: center;
@@ -133,7 +181,13 @@
 }
 
 .offsetTextBox {
-    background-color: #0a192f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #112240;
+    padding: 2em;
+    height: 10em;
+    border-radius: 0.5em;
 }
 
 .offsetText, .offsetImageCont {
@@ -143,8 +197,12 @@
 .offsetTech {
     display: flex;
     flex-direction: row;
+    justify-content: start;
     text-align: left;
-    background-color: pink;
+    padding: 1em;
+    padding-left: 0;
+    /* background-color: pink; */
+    color: #a8b2d1;
 }
 
 .offsetTech p {
@@ -155,7 +213,13 @@
     display: flex;
     flex-direction: row;
     justify-content: left;
-    background-color: red;
+    font-size: 1.3em;
+    color:#ccd6f6;
+    /* background-color: red; */
+}
+
+.offsetSocials a {
+    margin-right: 1em;
 }
 
 .offsetSocials p {

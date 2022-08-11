@@ -33,14 +33,19 @@
     align-items: center;
     /* background-color: blue; */
     width: 40vw;
+    min-width: 600px;
     height: 10vh;
-    font-size: 2.1vw;
+    font-size: 1.5em;
     color: #ccd6f6;
+}
+
+.aboutHeader p {
+    min-width: 200px;
 }
 
 #sideline {
     border-top: 1px solid #8892b0;
-    width: 13em;
+    width: 30em;
     margin-left: 0.5em;
 }
 
@@ -99,6 +104,7 @@
     .aboutHeader {
         /* background-color: green; */
         width: 20em;
+        min-width: 600px;
         height: 5em;
         font-size: 1em;
     }
@@ -111,5 +117,8 @@
     #monke {
         margin-top: 5em;
         margin-left: 0;
+    }
+    #sideline {
+        width: 50vw;
     }
 }
