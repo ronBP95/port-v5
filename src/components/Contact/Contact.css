@@ -1,5 +1,12 @@
-.contact {
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 85vw;
   height: 100vh;
-  background-color: teal;
+  /* background-color: teal; */
+}
+
+.contactHeader {
+  color: #64ffda;
 }

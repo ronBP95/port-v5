@@ -59,8 +59,8 @@ const Featured = () => {
                             <p>Postman</p>
                         </div>
                         <div className='offsetSocials'>
-                        <a id="github" href="https://github.com/ronBP95/Project-One---Pokemon" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
-                            <a id="github" href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                        <a id="github" href="https://github.com/ronBP95/just_apod" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
+                            <a id="github" href="https://rm-just-apod.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
                         </div>
                     </div>
                     <div className='offsetImageCont'>
