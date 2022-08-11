@@ -1,4 +1,5 @@
 import  React, { useState, useEffect } from "react";
+import "./Other.css"
 
 const query = `
 {
@@ -12,14 +13,16 @@ const query = `
 
 const Other = () => {
     const [jobs, setJobs] = useState(null);
+    let token = `${process.env.GATSBY_YOUR_ACCESS_TOKEN}`
+    let space = `${process.env.GATSBY_YOUR_SPACE_ID}`
 
     useEffect(() => {
     window
-        .fetch(`https://graphql.contentful.com/content/v1/spaces/` + `${process.env.YOUR_SPACE_ID}`, {
+        .fetch(`https://graphql.contentful.com/content/v1/spaces/` + space.toString() , {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            Authorization: "Bearer " + `${process.env.YOUR_ACCESS_TOKEN}`,
+            Authorization: "Bearer " + token.toString(),
         },
         body: JSON.stringify({ query }),
         })
@@ -33,15 +36,15 @@ const Other = () => {
         });
     }, []);
 
+    console.log(jobs)
+
     if (!jobs) {
         return "Loading...";
     }
 
     return (
-        <div className="App">
-          <header className="App-header">
+        <div className="other">
             <p>{jobs.title}</p>
-          </header>
         </div>
       );
 }
