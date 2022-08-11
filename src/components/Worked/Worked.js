@@ -31,7 +31,6 @@ if (activeTab === 0 || 1 || 2 || 3) {
 }
 
     return (
-        <div id="experience">
         <div className='worked'>
             <div className='workedHeader'>
                 <p><span id="workednum">02.</span> Where I've Worked</p>
@@ -49,7 +48,7 @@ if (activeTab === 0 || 1 || 2 || 3) {
                     <Jobs data={activeTab}/>
                 </div>
             </div>
-        </div>
+            <div id="projects"></div>
         </div>
     )
 }
