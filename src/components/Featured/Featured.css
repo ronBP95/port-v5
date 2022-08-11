@@ -60,17 +60,12 @@
     align-self: center;
 }
 
-.projectImageCont, .projectText {
-    grid-row: 1 / 2;
-}
-
 .textBox {
     background-color: #0a192f;
-    border-radius: 0.2vw;
 }
 
-.offsetText {
-    text-align: left;
+.projectImageCont, .projectText {
+    grid-row: 1 / 2;
 }
 
 .projectTech {
@@ -96,12 +91,78 @@
     font-size: 1.25em;
 }
 
+/* Offset Begins Here */
+
+.offsetProject {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    color: white;
+    background-color: pink;
+    height: 45vh;
+    width: 100%;
+}
+
+.offsetImageCont {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    grid-column: 1 / 3;
+    order: 1;
+    width: 75vw;
+    background-color: white;
+}
+
+.offsetImage {
+    height: auto;
+    max-width: 67%;
+    cursor: pointer;
+}
+
+.offsetText {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: yellow;
+    height: 25vh;
+    width: 40vw;
+    grid-column: 2 / -1;
+    align-self: center;
+    order: 2;
+    position: absolute;
+}
+
+.offsetTextBox {
+    background-color: #0a192f;
+}
+
+.offsetText, .offsetImageCont {
+    grid-row: 1 / 2;
+}
+
+.offsetTech {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    background-color: pink;
+}
+
+.offsetTech p {
+    margin-right: 30px;
+}
+
 .offsetSocials {
     display: flex;
     flex-direction: row;
     justify-content: left;
     background-color: red;
 }
+
+.offsetSocials p {
+    margin-right: 10px;
+    font-size: 1.25em;
+}
+
 
 @media screen and (min-width: 1600px) {
     .projectImageCont {
