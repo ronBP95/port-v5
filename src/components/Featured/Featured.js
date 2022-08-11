@@ -1,5 +1,6 @@
 import React from 'react';
 import './Featured.css'
+import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 // Image imports
 import buhay from '../../images/buhaypomo.png'
@@ -18,21 +19,50 @@ const Featured = () => {
                     <div className='projectImageCont'>
                         <img src={buhay} className="projectImage"/>
                     </div>
-                    <div className='projectText'>
-                        <p>Featured Project</p>
-                        <p>Project Name</p>
-                        <p>Text Box</p>
-                        <p>Technologies</p>
-                        <p>Icon Links</p>
+                        <div className='projectText'>
+                        <h4>Featured Project</h4>
+                        <h2>Buhay Pomodoro</h2>
+                        <div className='textBox'>
+                            <p>Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, 
+                            this course covers everything from explaining the principles of REST APIs to implementing Spotify's 
+                            OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed 
+                            to the internet you can add to your portfolio.</p>
+                        </div>
+                        <div className='projectTech'>
+                            <p>React</p>
+                            <p>Express</p>
+                            <p>Firebase</p>
+                            <p>Gatsby</p>
+                        </div>
+                        <div className='projectSocials'>
+                        <a id="github" href="hhttps://github.com/ronBP95" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
+                        <a id="github" href="hhttps://github.com/ronBP95" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                        </div>
                     </div>
                 </div>
                 <div className='alignedProjects'>
-                    <div className='projectText'>
-                        <p>Featured Project</p>
-                        <p>Project Name</p>
-                        <p>Text Box</p>
-                        <p>Technologies</p>
-                        <p>Icon Links</p>
+                    <div className='offsetText'>
+                        <h4>Featured Project</h4>
+                        <h2>Project Name</h2>
+                        <div className='textBox'>
+                            <p>Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+                            <br></br>
+                            <br></br>
+                            Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, 
+                            this course covers everything from explaining the principles of REST APIs to implementing Spotify's 
+                            OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed 
+                            to the internet you can add to your portfolio.</p>
+                        </div>
+                        <div className='projectTech'>
+                            <p>React</p>
+                            <p>Express</p>
+                            <p>Spotify</p>
+                            <p>Gatsby</p>
+                        </div>
+                        <div className='offsetSocials'>
+                            <p>GitHub</p>
+                            <p>Source Link</p>
+                        </div>
                     </div>
                     <div className='projectImageCont'>
                         <img src={apod} className="projectImage"/>
@@ -43,11 +73,24 @@ const Featured = () => {
                         <img src={pokemon} className="projectImage"/>
                     </div>
                     <div className='projectText'>
-                        <p>Featured Project</p>
-                        <p>Project Name</p>
-                        <p>Text Box</p>
-                        <p>Technologies</p>
-                        <p>Icon Links</p>
+                        <h4>Featured Project</h4>
+                        <h2>Project Name</h2>
+                        <div className='textBox'>
+                            <p>Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, 
+                            this course covers everything from explaining the principles of REST APIs to implementing Spotify's 
+                            OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed 
+                            to the internet you can add to your portfolio.</p>
+                        </div>
+                        <div className='projectTech'>
+                            <p>React</p>
+                            <p>Express</p>
+                            <p>Spotify</p>
+                            <p>Gatsby</p>
+                        </div>
+                        <div className='projectSocials'>
+                            <p>GitHub</p>
+                            <p>Source Link</p>
+                        </div>
                     </div>
                 </div>
             </div>

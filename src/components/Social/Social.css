@@ -20,7 +20,7 @@
 .socials {
     display: flex;
     flex-direction: column;
-    font-size: 1.25em;
+    font-size: 2.25em;
 }
 
 .socials a {

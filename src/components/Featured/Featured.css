@@ -25,30 +25,80 @@
 }
 
 .alignedProjects {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     color: white;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     background-color: blue;
     height: 45vh;
+    width: 100%;
 }
 
 .projectImageCont {
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-column: 1 / 3;
+    max-height: 100%;
 }
 
 .projectImage {
-    height: 35vh;
-    width: 40vw;
+    height: 100%;
+    max-width: 100%;
+    cursor: pointer;
 }
 
 .projectText {
+    display: flex;
+    flex-direction: column;
     text-align: right;
+    background-color: yellow;
+    height: 25vh;
+    width: 35vw;
+    grid-column: 2 / -1;
+    justify-self: right;
+    align-self: center;
+}
+
+.projectImageCont, .projectText {
+    grid-row: 1 / 2;
+}
+
+.textBox {
+    background-color: #0a192f;
+    border-radius: 0.2vw;
 }
 
 .offsetText {
     text-align: left;
+}
+
+.projectTech {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    background-color: pink;
+}
+
+.projectTech p {
+    margin-left: 30px;
+}
+
+.projectSocials {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: red;
+}
+
+.projectSocials p {
+    margin-left: 10px;
+    font-size: 1.25em;
+}
+
+.offsetSocials {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: red;
 }
