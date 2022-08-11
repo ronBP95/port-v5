@@ -1,23 +1,57 @@
-import React from 'react';
+import {React, useState, useEffect} from 'react';
 import './Other.css'
-import contentful from 'contentful'
-
-let client = contentful.createClient({
-    space: '7fu5o07l6mxg',
-    accessToken: 'GM0x2kHdRRFiBWVLYn6LPiM89v94pHYZjOwO0MUEglo',
-})
-
-let pullData = client.getEntry('4M0RIEvv488xRnZaYtX2MC').then(function (entry) {
-    // logs the entry metadata
-    console.log(entry.sys);
-  
-    // logs the field with ID title
-    console.log(entry.fields.productName);
-});
-
-console.log(pullData)
 
 const Other = () => {
+    
+    const [page, setPage] = useState(null);
+
+    const query = `{
+        jobsCollection {
+          items {
+            jobs {
+              title
+              description
+              contentType
+              fileName
+              size
+              url
+              width
+              height
+            }
+          }
+        }
+      }
+    `
+
+    console.log('space id is:' + process.env)
+    
+    useEffect(() => {
+      window
+        .fetch(`https://graphql.contentful.com/content/v1/spaces/` + process.env.YOUR_SPACE_ID, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+            // Authenticate the request
+            Authorization: "Bearer " + process.env.YOUR_ACCESS_TOKEN,
+          },
+          // send the GraphQL query
+          body: JSON.stringify({ query }),
+        })
+        .then((response) => response.json())
+        .then(({ data, errors }) => {
+          if (errors) {
+            console.error(errors);
+          }
+    
+          // rerender the entire component with new data
+          setPage(data.jobsCollection.items.jobs[0]);
+        });
+    }, []);
+    
+    if (!page) {
+      return "Loading...";
+    }
+    
     return (
         <div className='other'>
             <p>Other</p>
