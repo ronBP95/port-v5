@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Ron Magpantay`,
@@ -20,5 +24,4 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
   ],
-  
 }

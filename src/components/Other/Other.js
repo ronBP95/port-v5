@@ -23,16 +23,16 @@ const Other = () => {
       }
     `
 
-    console.log('space id is:' + process.env)
+    console.log('space id is:' + `${process.env.YOUR_SPACE_ID}`)
     
     useEffect(() => {
       window
-        .fetch(`https://graphql.contentful.com/content/v1/spaces/` + process.env.YOUR_SPACE_ID, {
-          method: "GET",
+        .fetch(`https://graphql.contentful.com/content/v1/spaces/` + `${process.env.YOUR_SPACE_ID}`, {
+          method: "POST",
           headers: {
             "Content-Type": "application/json",
             // Authenticate the request
-            Authorization: "Bearer " + process.env.YOUR_ACCESS_TOKEN,
+            Authorization: "Bearer " + `${process.env.YOUR_ACCESS_TOKEN}`,
           },
           // send the GraphQL query
           body: JSON.stringify({ query }),
@@ -44,7 +44,7 @@ const Other = () => {
           }
     
           // rerender the entire component with new data
-          setPage(data.jobsCollection.items.jobs[0]);
+          setPage(data.jobsCollection.items.[0]);
         });
     }, []);
     
