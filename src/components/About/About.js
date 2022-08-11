@@ -44,6 +44,7 @@ const About = () => {
                     <img src={monke} id='monke'></img>
                 </div>
             </div>
+            <div id="experience"></div>
         </div>
     )
 }
