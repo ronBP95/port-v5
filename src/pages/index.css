@@ -39,3 +39,9 @@ body {
         display: none;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .page {
+        width: 100vw;
+    }
+}
