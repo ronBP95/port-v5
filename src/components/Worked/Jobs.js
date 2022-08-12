@@ -20,7 +20,7 @@ const Jobs = (props) => {
       }     
     `)
     let node = data.allMdx.nodes[props.data]
-    console.log(props.data + "is here")
+    // console.log(props.data + "is here")
     return (
       <div className='jobPage'>
         <div>

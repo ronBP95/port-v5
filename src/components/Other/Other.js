@@ -36,8 +36,6 @@ const Other = () => {
         });
     }, []);
 
-    console.log(jobs)
-
     if (!jobs) {
         return "Loading...";
     }
