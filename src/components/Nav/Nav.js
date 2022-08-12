@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
-import resume from '../../images/resume.pdf'
+// import resume from '../../images/resume.pdf'
 
 const Nav = () => {
     return (
@@ -14,7 +14,7 @@ const Nav = () => {
                 <li className='navitems'><a href='#experience'> <span className='navspan'>02.</span> Experience</a></li>
                 <li className='navitems'><a href='#projects'><span className='navspan'>03.</span> Work</a></li>
                 <li className='navitems'><a href='#contact'><span className='navspan'>04.</span> Contact</a></li>
-                <a id="resumebutton" href={resume} target='_blank'>Resume</a>
+                <a id="resumebutton" target='_blank'>Resume</a>
             </ul>
             <div id="dropdown">
                 <p><GiHamburgerMenu /></p>
