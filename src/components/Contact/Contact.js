@@ -10,7 +10,7 @@ const Contact = () => {
                     <h1>Get In Touch</h1>
                     <p id="contactDesc">I am currently looking for Full Stack Engineering roles! Whether you have a question or you just want to say hello, the best way to reach me is through Linkedin!</p>
                 </div>
-                <a id='contactButton' href='https://www.linkedin.com/in/ron-magpantay/'>Say Hello</a>
+                <a id='contactButton' href='https://www.linkedin.com/in/ron-magpantay/' target='_blank'>Say Hello</a>
             </div>
         </div>
     )

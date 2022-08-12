@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    z-index: 100;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 20vw;
+    /* background-color: blueviolet; */
+    color: #a8b2d1;
+}
+
+.footerLink {
+    min-width: 218px;
+    min-height: 60px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    text-align: center;
+    line-height: 30px;
+}
+
+.footerLink:hover {
+    color: #64ffda;
+    transition: 0.3s;
+}

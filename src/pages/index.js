@@ -13,6 +13,7 @@ import Worked from "../components/Worked/Worked"
 import Featured from "../components/Featured/Featured"
 import Other from "../components/Other/Other"
 import Contact from "../components/Contact/Contact"
+import Footer from "../components/Footer/Footer"
 
 // sidebars
 import Social from "../components/Social/Social"
@@ -28,8 +29,9 @@ const IndexPage = () => {
         <About />
         <Worked />
         <Featured />
-        <Other />
+        {/* <Other /> */}
         <Contact />
+        <Footer />
         <div className="sidebar">
             <Social />
             <Name />
