@@ -124,6 +124,12 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    #about {
+        height: 100vh;
+    }
+}
+
 @media screen and (max-width: 660px) {
     .aboutHeader {
         width: 75vw;
@@ -131,12 +137,12 @@
 }
 
 @media screen and (max-width: 500px) {
-    #monke {
-        width: 50vw;
-        height: 50vw;
-    }
     .aboutText {
         font-size: 1em;
+    }
+    #monke {
+        height: 30vh;
+        width: 60vw;
     }
     #sideline {
         border-top: 1px solid #8892b0;
