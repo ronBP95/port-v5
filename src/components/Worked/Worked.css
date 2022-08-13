@@ -32,7 +32,7 @@
     width: 100vw;
     border-bottom: 1px solid gray;
     color: black;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .workedContent {
@@ -107,7 +107,6 @@
         /* background-color: green; */
         height: 50px;
         width: 80vw;
-        min-width: 40em;
         margin-right: 0;
         margin-top: -20px;
         margin-bottom: 50px;
@@ -138,7 +137,7 @@
         /* background-color: red; */
         padding-left: 0px;
         margin-left: 0px;
-        font-size: 12pt;
+        font-size: 2vw;
         justify-content: center;
         align-items: center;
         border-bottom: 1px solid white;
@@ -150,5 +149,32 @@
 
     .workedJobs {
         width: 80vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .workedNav {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        height: 50px;
+        width: 80vw;
+        min-width: none;
+        margin-right: 0px;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    .jobItem {
+        border-left: 0;
+        height: 50px;
+        width: 150px;
+        /* background-color: red; */
+        padding-left: 0px;
+        margin-left: 0px;
+        font-size: 12pt;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid white;
     }
 }
