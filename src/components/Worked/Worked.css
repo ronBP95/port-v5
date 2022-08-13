@@ -1,11 +1,11 @@
 .worked {
     display: flex;
     z-index: 100;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     position: relative;
     /* background: pink; */
-    width: 50vw;
+    width: 85vw;
     height: 65vh;
     color: white;
 }
@@ -40,6 +40,8 @@
     flex-direction: row;
     margin-top: 1.5em;
     /* background-color: blue; */
+    width: 50vw;
+    min-width: 653px;
 }
 
 .workedNav {
@@ -96,7 +98,7 @@
         position: relative;
         /* background: pink; */
         width: 50vw;
-        height: 65vh;
+        height: 75vh;
         color: white;
     }
 
@@ -115,8 +117,7 @@
     .workedContent {
         flex-direction: column;
         align-items: center;
-        /* background-color: blue; */
-        width: 30em;
+        background-color: blue;
     }
 
     .workedHeader {
@@ -149,6 +150,15 @@
 
     .workedJobs {
         width: 80vw;
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .workedContent {
+        min-width: 0px;
+        width: 85vw;
+        background-color: red;
     }
 }
 

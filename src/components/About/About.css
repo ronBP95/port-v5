@@ -92,7 +92,7 @@
 
 @media screen and (max-width: 1000px) {
     #about {
-        margin-bottom: 10em;
+        margin-bottom: 15em;
     }
     .aboutwords {
         flex-direction: column;
