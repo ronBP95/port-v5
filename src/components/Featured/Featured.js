@@ -75,7 +75,7 @@ const Featured = () => {
                             <h2 className='projectName'>Project Pokemon</h2>
                         </div>
                         <div className='textBox'>
-                            <p>Project Pokemon is the first project that I completed during my time at General Assembly. Our assignment was to build out a game of any type and I instantly envisioned a browser based replica of the hit Pokemon games Red + Blue.</p>
+                            <p>Project Pokemon is the first project that I completed during my time at General Assembly. My assignment was to build out a game of any type and I immediately envisioned a browser based replica of the hit Pokemon games Red + Blue.</p>
                         </div>
                         <div className='projectTech'>
                             <p>Javascript</p>
