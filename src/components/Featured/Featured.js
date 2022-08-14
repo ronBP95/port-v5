@@ -46,7 +46,7 @@ const Featured = () => {
                             <h2 className='projectName'>Just Apod</h2>
                         </div>
                         <div className='offsetTextBox'>
-                            <p>just_Apod is a simple application with the main purpose of this project 
+                            <p>Just Apod is a simple application with the main purpose of this project 
                             aimed at gaining experience working with Express and API's, which in this case, was 
                             the NASA Open API called "Astronomy Picture of the Day" or APOD for short.</p>
                         </div>
