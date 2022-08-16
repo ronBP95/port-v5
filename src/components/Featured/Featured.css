@@ -52,9 +52,13 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     color: white;
-    /* background-color: blue; */
+    background-color: blue;
     height: 45vh;
     width: 100%;
+}
+
+.projectLayer {
+    display: none;
 }
 
 .projectImageCont {
@@ -67,7 +71,6 @@
 .projectImage {
     height: auto;
     max-width: 100%;
-    cursor: pointer;
 }
 
 .projectText {
@@ -167,7 +170,6 @@
 .offsetImage {
     height: auto;
     max-width: 67%;
-    cursor: pointer;
 }
 
 .offsetText {
@@ -238,6 +240,43 @@
     }
 }
 
+/* Media Query for Layered Content */
+
+@media screen and (max-width: 1100px) {
+    .alignedProjects {
+        display: grid;
+    }
+    .projectText {
+        text-align: left;
+        width: 80vw;
+    }
+    .projectImageCont {
+        height: 100%;
+        max-width: 100%;
+    }
+    .projectImage {
+        object-fit: cover;
+        min-height: 250px;
+        max-width: 100%;
+        cursor: default;
+    }
+    .projectText, .projectImageCont {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .projectTech {
+        background-color: green;
+        justify-content: start;
+        margin: 0;
+    }
+    .projectTech p {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+}
+
+/* Media Query for Layered Content */
+
 @media screen and (max-width: 880px) {
     .featuredHeader p {
         font-size: 1.2rem;
@@ -247,11 +286,5 @@
     #featuredLine {
         margin-left: -1em;
         width: 100vw;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .featuredHeader p {
-
     }
 }

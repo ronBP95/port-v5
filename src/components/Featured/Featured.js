@@ -17,6 +17,7 @@ const Featured = () => {
             </div>
             <div className='featuredCont'>
                 <div className='alignedProjects'>
+                    <div className='projectLayer'></div>
                     <div className='projectImageCont'>
                         <img src={buhay} className="projectImage"/>
                     </div>
@@ -41,6 +42,7 @@ const Featured = () => {
                 </div>
                 <div className='offsetProject'>
                     <div className='offsetText'>
+                    <div className='projectLayer'></div>
                         <div className='headerCont'>
                             <h4 className='projectHeader'>Featured Project</h4>
                             <h2 className='projectName'>Just Apod</h2>
@@ -66,6 +68,7 @@ const Featured = () => {
                     </div>
                 </div>
                 <div className='alignedProjects'>
+                <div className='projectLayer'></div>
                     <div className='projectImageCont'>
                         <img src={pokemon} className="projectImage"/>
                     </div>
