@@ -52,7 +52,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     color: white;
-    background-color: blue;
+    /* background-color: blue; */
     height: 45vh;
     width: 100%;
 }
@@ -254,6 +254,8 @@
     .projectText {
         text-align: left;
         width: 80vw;
+        height: 50%;
+        background-color: none;
     }
     .projectImageCont {
         height: fit-content;
@@ -270,13 +272,25 @@
         grid-row: 1;
     }
     .projectTech {
-        background-color: green;
+        /* background-color: green; */
         justify-content: start;
         margin: 0;
+        padding-left: 0;
+    }
+    .textBox {
+        background: none;
+        padding-left: 0;
     }
     .projectTech p {
         margin-left: 0;
         margin-right: 30px;
+    }
+    .projectSocials {
+        justify-content: start;
+    }
+    .projectSocials a {
+        margin-left: 0;
+        padding-right: 0.5em;
     }
 }
 
