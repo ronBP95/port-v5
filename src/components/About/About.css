@@ -8,18 +8,22 @@
     /* background: green; */
     width: 85vw;
     height: 90vh;
+    min-height: 592px;
 }
 
 .aboutwords {
     display: flex;
     flex-direction: row;
+    /* background-color: pink; */
+    width: 60vw;
 }
 
 .aboutText {
-    /* background-color: red; */
+    /* background-color: blue; */
     height: 65vh;
-    width: 40vw;
     font-size: 1.2em;
+    min-width: 375px;
+    min-height: 550px;
 }
 
 #aboutnum {
@@ -68,6 +72,7 @@
     align-items: center;
     height: 64vh;
     margin-left: 15px;
+    min-height: 420px;
 }
 
 .aboutUl {
@@ -88,15 +93,19 @@
     border-radius: 0.25em;
     border: 2px solid #64ffda;
     margin-left: 100px;
+    min-width: 300px;
+    min-height: 250px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     #about {
-        margin-bottom: 15em;
+        height: 100vh;
+        min-height: 1200px;
     }
     .aboutwords {
         flex-direction: column;
-        height: 90vh;
+        height: 100vh;
+        min-height: 800px;
         /* background-color: green; */
     }
     .aboutHeader {
@@ -109,13 +118,14 @@
         min-width: 130px;
     }
     .aboutText {
-        width: 75vw;
+        width: 60vw;
+        min-height: 620px;
     }
     .aboutpic {
+        min-height: 200px;
         margin-left: 0;
     }
     #monke {
-        margin-top: 5em;
         margin-left: 0;
     }
     #sideline {
@@ -149,3 +159,4 @@
         width: 40vw;
     }
 }
+

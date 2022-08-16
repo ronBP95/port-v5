@@ -8,6 +8,8 @@
     width: 75vw;
     height: 175vh;
     /* border: 1px solid white; */
+    min-width: 375px;
+    min-height: 600px;
 }
 
 .featuredHeader {
