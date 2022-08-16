@@ -22,9 +22,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* background-color: green; */
-  height: 20vh;
+  background-color: green;
+  height: 25vh;
   width: 30vw;
+  min-height: 122px;
+  min-width: 315px;
 }
 
 .contactText h1 {
@@ -54,4 +56,8 @@
 #contactButton:hover {
   background-color: #233554;
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  
 }
