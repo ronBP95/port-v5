@@ -9,7 +9,7 @@
     height: 175vh;
     /* border: 1px solid white; */
     min-width: 375px;
-    min-height: 600px;
+    min-height: 1550px;
 }
 
 .featuredHeader {
@@ -54,6 +54,7 @@
     color: white;
     /* background-color: blue; */
     height: 45vh;
+    min-height: 425px;
     width: 100%;
 }
 
@@ -252,20 +253,24 @@
     }
     .projectText {
         text-align: left;
+        justify-content: center;
         width: 80vw;
-        height: 50%;
-        background-color: none;
+        height: 100%;
+        background-color: rgba(136, 146, 176, 0.1);
+        padding-left: 1em;
+        z-index: 101;
     }
     .projectImageCont {
         height: 100%;
-        background-color: red;
+        /* background-color: red; */
     }
     .projectImage {
         height: 100%;
         max-width: 100%;
         cursor: default;
+        opacity: 0.2;
     }
-    .projectText, .projectImageCont {
+    .projectText, .projectImageCont, .projectLayer {
         grid-column: 1;
         grid-row: 1;
     }
@@ -276,8 +281,9 @@
         padding-left: 0;
     }
     .textBox {
-        background: none;
+        height: 1em;
         padding-left: 0;
+        background: none;
     }
     .projectTech p {
         margin-left: 0;
@@ -303,5 +309,11 @@
     #featuredLine {
         margin-left: -1em;
         width: 100vw;
+    }
+    .textBox {
+        height: auto;
+        /* background-color: red; */
+        padding: 0.5em;
+        padding-left: 0;
     }
 }
