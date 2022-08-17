@@ -71,7 +71,6 @@
 }
 
 .projectImage {
-    height: auto;
     max-width: 100%;
 }
 
@@ -258,12 +257,11 @@
         background-color: none;
     }
     .projectImageCont {
-        height: fit-content;
-        width: fit-content;
+        height: 100%;
+        background-color: red;
     }
     .projectImage {
-        object-fit: cover;
-        min-height: 250px;
+        height: 100%;
         max-width: 100%;
         cursor: default;
     }
