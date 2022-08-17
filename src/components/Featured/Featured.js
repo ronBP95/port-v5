@@ -84,7 +84,6 @@ const Featured = () => {
                             <p>Javascript</p>
                             <p>HTML</p>
                             <p>CSS</p>
-                            <p>Blockchain (SIA)</p>
                         </div>
                         <div className='projectSocials'>
                             <a id="github" href="https://github.com/ronBP95/Project-One---Pokemon" target="_blank" rel="noreferrer noopener"><FiGithub/></a>

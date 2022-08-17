@@ -199,4 +199,11 @@
     .worked {
         margin-bottom: 5em;
     }
+    .workedContent {
+        min-height: 650px;
+    }
+    .jobDesc ul li {
+        min-width: 280px;
+        min-height: 111px;
+    }
 }
