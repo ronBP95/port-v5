@@ -3,11 +3,12 @@
   z-index: 100;
   justify-content: center;
   align-items: center;
+  position: relative;
   width: 85vw;
   height: 100vh;
   /* background-color: teal; */
   min-width: 375px;
-  min-height: 600px;
+  min-height: 375px;
 }
 
 .contactCont {
@@ -18,7 +19,8 @@
   text-align: center;
   /* background-color: blue; */
   height: 35vh;
-  min-height: 257px;
+  min-height: 288px;
+  min-width: 365px;
 }
 
 .contactText {

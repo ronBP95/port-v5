@@ -21,9 +21,9 @@
 .aboutText {
     /* background-color: blue; */
     height: 65vh;
+    width: 100%;
     font-size: 1.2em;
-    min-width: 375px;
-    min-height: 550px;
+    min-height: 620px;
 }
 
 #aboutnum {
@@ -36,7 +36,7 @@
     justify-content: flex-start;
     align-items: center;
     /* background-color: blue; */
-    width: 50vw;
+    width: 45vw;
     height: 10vh;
     font-size: 1.5em;
     color: #ccd6f6;
@@ -53,6 +53,8 @@
 
 .aboutDesc {
     color: #8892b0;
+    /* background-color: green; */
+    width: 100%;
 }
 
 .techDesc {
@@ -68,11 +70,10 @@
 .aboutpic {
     /* background-color: yellow; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    height: 64vh;
+    height: 58vh;
     margin-left: 15px;
-    min-height: 420px;
 }
 
 .aboutUl {
@@ -92,7 +93,6 @@
     width: 20em;
     border-radius: 0.25em;
     border: 2px solid #64ffda;
-    margin-left: 100px;
     min-width: 300px;
     min-height: 250px;
 }
@@ -122,8 +122,11 @@
         min-height: 620px;
     }
     .aboutpic {
-        min-height: 200px;
+        height: 45vh;
         margin-left: 0;
+        /* background-color: yellow; */
+        justify-content: center;
+        min-height: 323px;
     }
     #monke {
         margin-left: 0;
@@ -137,12 +140,13 @@
 @media screen and (max-width: 800px) {
     #about {
         height: 100vh;
+        /* background-color: red; */
     }
 }
 
 @media screen and (max-width: 660px) {
     .aboutHeader {
-        width: 75vw;
+        width: 60vw;
     }
 }
 
@@ -158,5 +162,22 @@
         border-top: 1px solid #8892b0;
         width: 40vw;
     }
+    .aboutDesc {
+        width: 85%;
+        min-height: 340px;
+    }
+    .aboutDesc p {
+        min-width: 182px;
+        min-height: 170px;
+    }
+    .aboutwords {
+        min-height: 340px;
+    }
+    .techDesc {
+        width: 85%;
+        min-width: 233px;
+        min-height: 56px;
+    }
+    
 }
 
