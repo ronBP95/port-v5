@@ -81,7 +81,8 @@
         display: none;
     }
     #dropdown {
-        display: inline;
+        /* display: inline; */
+        display: none;
     }
 }
 
