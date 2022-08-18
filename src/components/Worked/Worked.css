@@ -183,6 +183,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .worked {
+        height: 110vh;
+    }
     .workedNav {
         flex-direction: row;
         justify-content: center;
