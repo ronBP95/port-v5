@@ -64,3 +64,15 @@ body {
 }
 
 /* Font Imports */
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url(../fonts/RobotoMono-Regular.ttf);
+}
