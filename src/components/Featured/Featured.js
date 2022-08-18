@@ -12,7 +12,7 @@ const Featured = () => {
     return (
         <div className='featured'>
             <div className='featuredHeader'>
-                <p><span className='featuredNum'>03.</span> Some Things I've Worked On</p>
+                <p><span className='featuredNum'>03.</span> Some Things I've Built</p>
                 <div id='featuredLine'></div>
             </div>
             <div className='featuredCont'>

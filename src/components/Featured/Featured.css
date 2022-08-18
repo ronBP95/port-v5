@@ -18,15 +18,16 @@
     width: 60vw;
     /* background-color: red; */
     color: white;
-    font-size: 1.5em;
-    min-height: 40px;
+    font-size: 1.25em;
+    min-height: 70px;
     font-family: 'Inter';
+    margin-bottom: 20px;
 }
 
 .featuredHeader p {
     /* background-color: blue; */
-    margin-right: 50px;
-    min-width: 325px;
+    margin-right: 25px;
+    min-width: 260px;
 }
 
 .featuredNum {
@@ -46,6 +47,7 @@
     height: 155vh;
     /* background-color: green; */
     min-height: 1175px;
+    margin-top: 2em;
 }
 
 .alignedProjects {
