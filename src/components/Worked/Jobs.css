@@ -2,9 +2,14 @@
     color: #64ffda;
 }
 
+.jobTitle {
+    font-family: 'Inter';
+}
+
 .jobDate {
     color: #a8b2d1;
     margin-top: 0.5em;    
+    font-family: 'Roboto Mono';
 }
 
 .jobDesc {
@@ -13,6 +18,7 @@
     font-size: 1.25em;
     margin-left: 15px;
     color: #8892b0;
+    font-family: 'Open Sans';
 }
 
 .jobDesc li {

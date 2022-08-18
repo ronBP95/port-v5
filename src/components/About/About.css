@@ -40,6 +40,7 @@
     height: 10vh;
     font-size: 1.5em;
     color: #ccd6f6;
+    font-family: 'Inter';
 }
 
 .aboutHeader p {
@@ -55,16 +56,19 @@
     color: #8892b0;
     /* background-color: green; */
     width: 100%;
+    font-family: 'Open Sans';
 }
 
 .techDesc {
     color: #8892b0;
+    font-family: 'Open Sans';
 }
 
 #techlist {
     display: flex;
     flex-direction: row;
     list-style-position: inside;
+    font-family: 'Roboto Mono';
 }
 
 .aboutpic {

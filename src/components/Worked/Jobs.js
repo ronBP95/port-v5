@@ -23,7 +23,7 @@ const Jobs = (props) => {
     // console.log(props.data + "is here")
     return (
       <div className='jobPage'>
-        <div>
+        <div className='jobTitle'>
           <p>{node.frontmatter.position} <span className='companyTitle'>@ {node.frontmatter.title}</span> </p>
         </div>
         <div className='jobDate'>
