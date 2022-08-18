@@ -99,6 +99,12 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    #heroText {
+        margin-bottom: 2em;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .heroCont {
         display: flex;
@@ -120,12 +126,15 @@
         border: 1px solid #64ffda;
         border-radius: 5px;
         width: 40vw;
-        font-size: 4vw;
-        margin-top: 2rem;
+        font-size: 3vw;
+        margin-top: 3rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
         color: #64ffda;
         transition: 0.3s;
         cursor: pointer;
+    }
+    #heroText {
+        margin-bottom: 1em;
     }
 }
