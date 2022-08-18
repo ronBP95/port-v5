@@ -1,8 +1,6 @@
 import * as React from "react"
 import './index.css'
 
-// component imports
-
 // nav
 import Nav from "../components/Nav/Nav"
 
