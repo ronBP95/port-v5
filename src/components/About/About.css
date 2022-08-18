@@ -16,6 +16,7 @@
     flex-direction: row;
     /* background-color: pink; */
     width: 60vw;
+    min-height: 620px;
 }
 
 .aboutText {
@@ -55,7 +56,7 @@
 .aboutDesc {
     color: #8892b0;
     /* background-color: green; */
-    width: 100%;
+    max-width: 100%;
     font-family: 'Open Sans';
 }
 
@@ -69,6 +70,11 @@
     flex-direction: row;
     list-style-position: inside;
     font-family: 'Roboto Mono';
+}
+
+#techlist ul li {
+    min-width: 100px;
+    min-height: 25px;
 }
 
 .aboutpic {
@@ -108,6 +114,7 @@
     }
     .aboutwords {
         flex-direction: column;
+        justify-content: space-around;
         height: 100vh;
         min-height: 800px;
         /* background-color: green; */
@@ -122,11 +129,12 @@
         min-width: 130px;
     }
     .aboutText {
-        width: 60vw;
+        width: 65vw;
         min-height: 620px;
     }
     .aboutpic {
-        height: 45vh;
+        height: 20vh;
+        width: 100%;
         margin-left: 0;
         /* background-color: yellow; */
         justify-content: center;
@@ -134,6 +142,8 @@
     }
     #monke {
         margin-left: 0;
+        height: 20vh;
+        width: 20vw;
     }
     #sideline {
         width: 50vw;
@@ -148,40 +158,56 @@
     }
 }
 
-@media screen and (max-width: 660px) {
-    .aboutHeader {
-        width: 60vw;
+@media screen and (max-width: 750px) {
+    .aboutDesc {
+        font-size: 2.5vw;
+    }
+    .techDesc {
+        font-size: 2.5vw;
+        /* background-color: green; */
     }
 }
 
-@media screen and (max-width: 500px) {
-    .aboutText {
-        font-size: 1em;
+@media screen and (max-width: 550px) {
+    #about {
+        /* background-color: red; */
+    }
+    .aboutHeader {
+        width: 60vw;
     }
     #monke {
         height: 30vh;
-        width: 60vw;
+        width: 45vw;;
     }
     #sideline {
         border-top: 1px solid #8892b0;
         width: 40vw;
     }
     .aboutDesc {
-        width: 85%;
-        min-height: 340px;
-    }
-    .aboutDesc p {
-        min-width: 182px;
-        min-height: 170px;
+        min-height: 240px;
+        /* background-color: yellow; */
+        font-size: 0.75em;;
     }
     .aboutwords {
         min-height: 340px;
+        height: 90%;
+        width: 65vw;
+        /* background-color: teal; */
     }
     .techDesc {
-        width: 85%;
+        width: 100%;
         min-width: 233px;
         min-height: 56px;
+        font-size: 0.75em;
+        /* background-color: green; */
     }
-    
+    .aboutPic {
+        min-height: 300px;
+        min-width: 350px;
+    }
+    .aboutUl li {
+        min-width: 110px;
+        height: 40px;
+    }
 }
 
