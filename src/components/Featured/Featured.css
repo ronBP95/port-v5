@@ -9,6 +9,7 @@
     height: 155vh;
     /* border: 1px solid white; */
     min-width: 375px;
+    min-height: 1175px;
 }
 
 .featuredHeader {
