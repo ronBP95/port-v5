@@ -6,7 +6,7 @@
     position: relative;
     /* background: pink; */
     width: 85vw;
-    height: 65vh;
+    height: 80vh;
     color: white;
     min-width: 375px;
     min-height: 600px;
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
     /* background-color: blue; */
     width: 60vw;
     font-family: 'Inter';
@@ -24,7 +24,7 @@
 
 .workedHeader p {
     /* background-color: red; */
-    min-width: 10em;
+    min-width: 12em;
 }
 
 #workednum {
@@ -85,6 +85,11 @@
     border-left: 2px solid #64ffda
 }
 
+.jobDesc ul li {
+    /* background-color: green; */
+    font-size: 13pt;
+}
+
 .workedJobs {
     /* background-color: green; */
 }
@@ -143,7 +148,6 @@
         /* background-color: red; */
         padding-left: 0px;
         margin-left: 0px;
-        font-size: 1em;
         min-height: 50px;
         min-width: 50px;
         justify-content: center;
@@ -169,10 +173,16 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .worked {
-        height: 80vh;
+        height: 90vh;
     }
+    .jobItem {
+        font-size: 9pt;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .workedNav {
         flex-direction: row;
         justify-content: center;
@@ -190,17 +200,19 @@
         /* background-color: red; */
         padding-left: 0px;
         margin-left: 0px;
-        font-size: 12pt;
         justify-content: center;
         align-items: center;
         border-bottom: 1px solid white;
     }
+    .jobDesc ul li {
+        min-width: 280px;
+        min-height: 111px;
+        /* background-color: green; */
+        font-size: 12pt;
+    }
 }
 
 @media screen and (max-width: 415px) {
-    .worked {
-        margin-bottom: 5em;
-    }
     .workedContent {
         min-height: 650px;
     }
