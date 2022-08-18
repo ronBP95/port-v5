@@ -16,10 +16,11 @@
     margin-left: 3em;
     color: #64ffda;
     cursor: pointer;
-    border: 1px solid white;
+    border: 3px solid #64ffda;
     padding: 0.5em;
     padding-left: 0.75em;
     padding-right: 0.75em;
+    border-radius: 10px;
 }
 
 .navmenu {
