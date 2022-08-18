@@ -24,3 +24,9 @@
     color: #64ffda;
     transition: 0.3s;
 }
+
+@media screen and (max-width: 800px) {
+    .footer {
+        font-size: 9pt;
+    }
+}
