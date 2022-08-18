@@ -37,10 +37,12 @@
 .contactText h1 {
   color: #ccd6f6;
   font-size: 36pt;
+  font-family: 'Inter';
 }
 
 .contactHeader {
   color: #64ffda;
+  font-family: 'Roboto Mono';
 }
 
 #contactDesc {
@@ -49,6 +51,7 @@
   color:  #a8b2d1;
   min-width: 365px;
   min-height: 98px;
+  font-family: 'Open Sans';
 }
 
 #contactButton {
@@ -58,6 +61,7 @@
   padding: 1.25em;
   cursor: pointer;
   transition: 0.3s;
+  font-family: 'Roboto Mono';
 }
 
 #contactButton:hover {
