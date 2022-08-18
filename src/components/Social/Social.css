@@ -20,6 +20,7 @@
 .socials {
     display: flex;
     flex-direction: column;
+    font-size: 1.3em;
 }
 
 .socials a {
@@ -49,6 +50,6 @@
 #vl {
     border-right: 1px solid white;
     height: 150px;
-    margin-right: 8px;
+    margin-right: 10px;
     cursor: default;
 }
