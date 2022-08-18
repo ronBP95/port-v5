@@ -33,6 +33,7 @@
 }
 
 .navitems {
+    font-family: 'Roboto Mono';
     padding-left: 1em;
     padding-right: 1em;
     transition: 0.3s;
@@ -51,6 +52,7 @@
 }
 
 #resumebutton {
+    font-family: 'Open Sans';
     margin-left: 17.5px;
     border: 1px solid #64ffda;
     border-radius: 5px;
