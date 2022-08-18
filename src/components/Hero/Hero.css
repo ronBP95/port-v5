@@ -29,14 +29,16 @@
 }
 
 #name {
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: white;
     margin-top: 0.3em;
+    font-family: 'Inter';
 }
 
 #subName {
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: #8892b0;
+    font-family: 'Inter';
 }
 
 #heroText {
@@ -48,6 +50,7 @@
     margin-top: 1em;
     min-width: 265px;
     min-height: 158px;
+    font-family: 'Open Sans';
 }
 
 #company {
@@ -74,13 +77,13 @@
     border: 1px solid #64ffda;
     border-radius: 5px;
     width: 12.5em;
-    font-size: 14pt;
+    font-size: 12pt;
     margin-top: 2em;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     color: #64ffda;
     transition: 0.3s;
     cursor: pointer;
+    font-family: 'Roboto Mono';
 }
 
 #heroButton:hover {
