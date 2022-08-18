@@ -20,6 +20,7 @@
     color: white;
     font-size: 1.5em;
     min-height: 40px;
+    font-family: 'Inter';
 }
 
 .featuredHeader p {
@@ -97,10 +98,12 @@
 .projectHeader {
     margin-bottom: 0.5em;
     color: #64ffda;
+    font-family: 'Roboto Mono';
 }
 
 .projectName {
     color: #ccd6f6;
+    font-family: 'Inter'
 }
 
 .textBox {
@@ -111,6 +114,7 @@
     padding: 2em;
     height: 10em;
     border-radius: 0.5em;
+    font-family: 'Open Sans';
 }
 
 .projectImageCont, .projectText {
@@ -130,6 +134,7 @@
 
 .projectTech p {
     margin-left: 30px;
+    font-family: 'Roboto Mono';
 }
 
 .projectSocials {
@@ -200,6 +205,7 @@
     padding: 2em;
     height: 10em;
     border-radius: 0.5em;
+    font-family: 'Open Sans';
 }
 
 .offsetText, .offsetImageCont {
@@ -219,6 +225,7 @@
 
 .offsetTech p {
     margin-right: 30px;
+    font-family: 'Roboto Mono';
 }
 
 .offsetSocials {
