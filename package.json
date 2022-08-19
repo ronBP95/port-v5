@@ -4,7 +4,6 @@
   "private": true,
   "description": "ron-magpantay",
   "author": "ronBP95",
-  "proxy": "https://port-v5-backend.herokuapp.com/",
   "keywords": [
     "gatsby"
   ],

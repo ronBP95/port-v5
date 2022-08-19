@@ -14,7 +14,7 @@ const Nav = () => {
                 <li className='navitems'><a href='#experience'> <span className='navspan'>02.</span> Experience</a></li>
                 <li className='navitems'><a href='#projects'><span className='navspan'>03.</span> Work</a></li>
                 <li className='navitems'><a href='#contact'><span className='navspan'>04.</span> Contact</a></li>
-                <a id="resumebutton" target='_blank' href='/resume'>Resume</a>
+                <a id="resumebutton" target='_blank' href='https://resume.ronmagpantay.com'>Resume</a>
             </ul>
             <div id="dropdown">
                 <p><GiHamburgerMenu /></p>
