@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import './Nav.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
 // import resume from '../../images/resume.pdf'
