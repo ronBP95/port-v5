@@ -20,10 +20,6 @@ import Name from "../components/Name/Name"
 // React Google Analytics
 // import ReactGA from 'react-ga';
 
-// React Heap Analytics
-import ReactHeap from "reactjs-heap"
-ReactHeap.initialize('1313222181')
-
 const IndexPage = () => {
     return (
     <div className="page">
