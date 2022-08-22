@@ -19,11 +19,11 @@ import Name from "../components/Name/Name"
 
 // React Google Analytics
 import ReactGA from 'react-ga';
+ReactGA.initialize('UA-000000-01');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 const IndexPage = () => {
-    ReactGA.initialize('UA-000000-01');
-    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
     <div className="page">
         <Nav />
