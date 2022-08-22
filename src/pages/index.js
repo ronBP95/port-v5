@@ -18,7 +18,9 @@ import Social from "../components/Social/Social"
 import Name from "../components/Name/Name"
 
 // React Google Analytics
-// import ReactGA from 'react-ga';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-223761393-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const IndexPage = () => {
     return (
