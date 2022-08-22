@@ -17,9 +17,13 @@ import Footer from "../components/Footer/Footer"
 import Social from "../components/Social/Social"
 import Name from "../components/Name/Name"
 
+// React Google Analytics
+import ReactGA from 'react-ga';
 
 
 const IndexPage = () => {
+    ReactGA.initialize('UA-000000-01');
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
     <div className="page">
         <Nav />
