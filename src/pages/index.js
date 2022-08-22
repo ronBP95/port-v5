@@ -19,8 +19,11 @@ import Name from "../components/Name/Name"
 
 // React Google Analytics
 import ReactGA from 'react-ga';
+const isBrowser = typeof window !== "undefined"
 ReactGA.initialize('UA-223761393-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+if (isBrowser) {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+}
 
 const IndexPage = () => {
     return (
