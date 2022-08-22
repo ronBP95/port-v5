@@ -20,7 +20,7 @@ import Name from "../components/Name/Name"
 // React Google Analytics
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-223761393-1');
-ReactGA.pageview('/pages/index');
+ReactGA.pageview('/');
 
 const IndexPage = () => {
     return (
