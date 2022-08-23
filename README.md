@@ -1,6 +1,6 @@
 # Welcome to Ron's Portfolio!
 
-#### View Site: <a href="https://www.ronmagpantay.com">www.ronmagpantay.com</a>
+#### View Site: <a href="https://ronmagpantay.com">www.ronmagpantay.com</a>
 
 <br>
 
