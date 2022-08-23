@@ -7,6 +7,11 @@ import buhay from '../../images/buhaypomo.png'
 import apod from '../../images/apod.png'
 import pokemon from '../../images/pokemon.png'
 
+// Events to be tracked
+// Project 1 Clicks (Source + Live)
+// Project 2 Clicks (Source + Live)
+// Project 3 Clicks (Source + Live)
+
 const Featured = () => {
     
     return (
