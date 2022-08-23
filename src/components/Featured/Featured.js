@@ -8,6 +8,7 @@ import apod from '../../images/apod.png'
 import pokemon from '../../images/pokemon.png'
 
 // Gatsby Google Analytics
+import { OutboundLink } from 'gatsby-plugin-google-gtag';
 
 const Featured = () => {
     return (
