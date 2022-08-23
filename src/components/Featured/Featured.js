@@ -10,13 +10,7 @@ import pokemon from '../../images/pokemon.png'
 // Gatsby Google Analytics
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
-// Events to be tracked
-// Project 1 Clicks (Source + Live)
-// Project 2 Clicks (Source + Live)
-// Project 3 Clicks (Source + Live)
-
 const Featured = () => {
-    
     return (
         <div className='featured'>
             <div className='featuredHeader'>
@@ -48,18 +42,12 @@ const Featured = () => {
                                 target="_blank" 
                                 rel="noreferrer noopener"       
                                 onClick={
-                                // Lets track that custom click
                                 trackCustomEvent({
-                                // string - required - The object that was interacted with (e.g.video)
                                 category: "Project Views",
-                                // string - required - Type of interaction (e.g. 'play')
                                 action: "Click",
-                                // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
                                 label: "Buhay Pomo Github View",
-                                // number - optional - Numeric value associated with the event. (e.g. A product ID)
                                 value: 1,
                                 })
-                                //... Other logic here
                                 }>
                                 <FiGithub/>
                             </a>
@@ -68,18 +56,12 @@ const Featured = () => {
                                 target="_blank" 
                                 rel="noreferrer noopener"                                
                                 onClick={
-                                // Lets track that custom click
                                 trackCustomEvent({
-                                // string - required - The object that was interacted with (e.g.video)
                                 category: "Project Views",
-                                // string - required - Type of interaction (e.g. 'play')
                                 action: "Click",
-                                // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
                                 label: "Buhay Pomo Live View",
-                                // number - optional - Numeric value associated with the event. (e.g. A product ID)
                                 value: 2,
                                 })
-                                //... Other logic here
                                 }>
                                 <FiExternalLink/>
                             </a>
@@ -105,8 +87,34 @@ const Featured = () => {
                             <p>Postman</p>
                         </div>
                         <div className='offsetSocials'>
-                        <a id="github" href="https://github.com/ronBP95/just_apod" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
-                            <a id="github" href="https://rm-just-apod.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                            <a id="github" 
+                                href="https://github.com/ronBP95/just_apod" 
+                                target="_blank" 
+                                rel="noreferrer noopener"
+                                onClick={
+                                trackCustomEvent({
+                                category: "Project Views",
+                                action: "Click",
+                                label: "Just Apod Github View",
+                                value: 3,
+                                })
+                                }>
+                                <FiGithub/>
+                                </a>
+                            <a id="github" 
+                                href="https://rm-just-apod.herokuapp.com/" 
+                                target="_blank" 
+                                rel="noreferrer noopener"
+                                onClick={
+                                trackCustomEvent({
+                                category: "Project Views",
+                                action: "Click",
+                                label: "Just Apod Live View",
+                                value: 4,
+                                })
+                                }>
+                                <FiExternalLink/>
+                            </a>
                         </div>
                     </div>
                     <div className='offsetImageCont'>
@@ -132,8 +140,34 @@ const Featured = () => {
                             <p>CSS</p>
                         </div>
                         <div className='projectSocials'>
-                            <a id="github" href="https://github.com/ronBP95/Project-One---Pokemon" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
-                            <a id="github" href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                            <a id="github" 
+                                href="https://github.com/ronBP95/Project-One---Pokemon" 
+                                target="_blank" 
+                                rel="noreferrer noopener"
+                                onClick={
+                                trackCustomEvent({
+                                category: "Project Views",
+                                action: "Click",
+                                label: "Project Pokemon Github View",
+                                value: 5,
+                                })
+                                }>
+                                <FiGithub/>
+                            </a>
+                            <a id="github" 
+                                href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" 
+                                target="_blank" 
+                                rel="noreferrer noopener"
+                                onClick={
+                                trackCustomEvent({
+                                category: "Project Views",
+                                action: "Click",
+                                label: "Project Pokemon Live View",
+                                value: 6,
+                                })
+                                }>
+                                <FiExternalLink/>
+                            </a>
                         </div>
                     </div>
                 </div>
