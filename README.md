@@ -1,6 +1,6 @@
 # Welcome to Ron's Portfolio!
 
-#### View Site: <a href="www.ronmagpantay.com">www.ronmagpantay.com</a>
+#### View Site: <a href="https://www.ronmagpantay.com">www.ronmagpantay.com</a>
 
 <br>
 
@@ -68,7 +68,7 @@
 </ul>
 
 <br>
-<p>Attribution and design credit goes to Brittany Chiang from <a href="www.brittanychiang.com">www.brittanychiang.com</a>.</p>
+<p>Attribution and design credit goes to Brittany Chiang from <a href="https://www.brittanychiang.com">www.brittanychiang.com</a>.</p>
 
 <p>I used her website as a mockup and built it from the ground up. There are a lot of key differences between our portfolios, as she utilizes the Stylized Components plugin in Gatsby and hosts her website via Netlify whereas mine is on Gatsby Cloud.</p>
 
