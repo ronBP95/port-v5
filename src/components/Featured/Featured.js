@@ -55,15 +55,34 @@ const Featured = () => {
                                 // string - required - Type of interaction (e.g. 'play')
                                 action: "Click",
                                 // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
-                                label: "Buhay Pomo Project Interactions",
+                                label: "Buhay Pomo Github View",
                                 // number - optional - Numeric value associated with the event. (e.g. A product ID)
                                 value: 1,
                                 })
                                 //... Other logic here
-                            }>
-                            <FiGithub/>
+                                }>
+                                <FiGithub/>
                             </a>
-                            <a id="github" href="https://buhay-pomo.web.app/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                            <a id="github" 
+                                href="https://buhay-pomo.web.app/" 
+                                target="_blank" 
+                                rel="noreferrer noopener"                                
+                                onClick={
+                                // Lets track that custom click
+                                trackCustomEvent({
+                                // string - required - The object that was interacted with (e.g.video)
+                                category: "Project Views",
+                                // string - required - Type of interaction (e.g. 'play')
+                                action: "Click",
+                                // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+                                label: "Buhay Pomo Live View",
+                                // number - optional - Numeric value associated with the event. (e.g. A product ID)
+                                value: 2,
+                                })
+                                //... Other logic here
+                                }>
+                                <FiExternalLink/>
+                            </a>
                         </div>
                     </div>
                 </div>
