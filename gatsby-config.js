@@ -15,14 +15,11 @@ module.exports = {
             "G-2M3Z1ZZ33L", // Google Analytics / GA
           ],
           gtagConfig: {
-            optimize_id: "OPT_CONTAINER_ID",
-            anonymize_ip: true,
-            cookie_expires: 0,
             send_page_view: true,
           },
           pluginConfig: {
             // Puts tracking script in the head instead of the body
-            head: true,
+            head: false,
             // Setting this parameter is also optional
             respectDNT: true,
             // Avoids sending pageview hits from custom paths
