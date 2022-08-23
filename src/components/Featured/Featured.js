@@ -7,6 +7,9 @@ import buhay from '../../images/buhaypomo.png'
 import apod from '../../images/apod.png'
 import pokemon from '../../images/pokemon.png'
 
+// Gatsby Google Analytics
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+
 // Events to be tracked
 // Project 1 Clicks (Source + Live)
 // Project 2 Clicks (Source + Live)
@@ -40,7 +43,25 @@ const Featured = () => {
                             <p>Firebase</p>
                         </div>
                         <div className='projectSocials'>
-                            <a id="github" href="https://github.com/ronBP95/buhay_pomo" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
+                            <a id="github" href="https://github.com/ronBP95/buhay_pomo" target="_blank" rel="noreferrer noopener"       
+                                onClick={e => {
+                                // To stop the page reloading
+                                e.preventDefault()
+                                // Lets track that custom click
+                                trackCustomEvent({
+                                // string - required - The object that was interacted with (e.g.video)
+                                category: "Project Views",
+                                // string - required - Type of interaction (e.g. 'play')
+                                action: "Click",
+                                // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+                                label: "Buhay Pomo Project Interactions",
+                                // number - optional - Numeric value associated with the event. (e.g. A product ID)
+                                value: 1,
+                                })
+                                //... Other logic here
+                            }}>
+                                <FiGithub/>
+                            </a>
                             <a id="github" href="https://buhay-pomo.web.app/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
                         </div>
                     </div>
