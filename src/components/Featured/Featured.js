@@ -8,7 +8,6 @@ import apod from '../../images/apod.png'
 import pokemon from '../../images/pokemon.png'
 
 // Gatsby Google Analytics
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
 const Featured = () => {
     return (
@@ -40,29 +39,13 @@ const Featured = () => {
                             <a id="github" 
                                 href="https://github.com/ronBP95/buhay_pomo" 
                                 target="_blank" 
-                                rel="noreferrer noopener"       
-                                onClick={
-                                trackCustomEvent({
-                                category: "Project Views",
-                                action: "Click",
-                                label: "Buhay Pomo Github View",
-                                value: 1,
-                                })
-                                }>
+                                rel="noreferrer noopener">
                                 <FiGithub/>
                             </a>
                             <a id="github" 
                                 href="https://buhay-pomo.web.app/" 
                                 target="_blank" 
-                                rel="noreferrer noopener"                                
-                                onClick={
-                                trackCustomEvent({
-                                category: "Project Views",
-                                action: "Click",
-                                label: "Buhay Pomo Live View",
-                                value: 2,
-                                })
-                                }>
+                                rel="noreferrer noopener">
                                 <FiExternalLink/>
                             </a>
                         </div>
@@ -90,29 +73,13 @@ const Featured = () => {
                             <a id="github" 
                                 href="https://github.com/ronBP95/just_apod" 
                                 target="_blank" 
-                                rel="noreferrer noopener"
-                                onClick={
-                                trackCustomEvent({
-                                category: "Project Views",
-                                action: "Click",
-                                label: "Just Apod Github View",
-                                value: 3,
-                                })
-                                }>
+                                rel="noreferrer noopener">
                                 <FiGithub/>
                                 </a>
                             <a id="github" 
                                 href="https://rm-just-apod.herokuapp.com/" 
                                 target="_blank" 
-                                rel="noreferrer noopener"
-                                onClick={
-                                trackCustomEvent({
-                                category: "Project Views",
-                                action: "Click",
-                                label: "Just Apod Live View",
-                                value: 4,
-                                })
-                                }>
+                                rel="noreferrer noopener">
                                 <FiExternalLink/>
                             </a>
                         </div>
@@ -143,29 +110,13 @@ const Featured = () => {
                             <a id="github" 
                                 href="https://github.com/ronBP95/Project-One---Pokemon" 
                                 target="_blank" 
-                                rel="noreferrer noopener"
-                                onClick={
-                                trackCustomEvent({
-                                category: "Project Views",
-                                action: "Click",
-                                label: "Project Pokemon Github View",
-                                value: 5,
-                                })
-                                }>
+                                rel="noreferrer noopener">
                                 <FiGithub/>
                             </a>
                             <a id="github" 
                                 href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" 
                                 target="_blank" 
-                                rel="noreferrer noopener"
-                                onClick={
-                                trackCustomEvent({
-                                category: "Project Views",
-                                action: "Click",
-                                label: "Project Pokemon Live View",
-                                value: 6,
-                                })
-                                }>
+                                rel="noreferrer noopener">
                                 <FiExternalLink/>
                             </a>
                         </div>
