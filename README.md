@@ -1,56 +1,75 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Welcome to Ron's Portfolio!
 
-## 🚀 Quick start
+#### View Site: <a>www.ronmagpantay.com</a>
 
-1.  **Create a Gatsby site.**
+<br>
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## About the Project
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+<p>This is the most recent iteration of my portfolio! This is currently v5. The first three versions of my portfolio never went into production and the v4 production was built using create-react-app and hosted on Github pages. I decided to go for another go at improving on my portfolio to help me learn new technologies and make it "change-friendly". My last portfolio wasn't very templated (which would require a lot of configuration for adding new content), the design was rough around the edges, the code was a mess, and the resizing isn't nearly as fluid as it is at ronmagpantay.com</p>
 
-2.  **Start developing.**
+<br>
+<br>
 
-    Navigate into your new site’s directory and start it up.
+### Improvements:
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+<ul>
+  <li>Major resizing improvements from the previous portfolio iteration.</li>
+  <li>Content is served through a CMS (Contentful) or locally which aids in templating my content.</li>
+  <li>Page load time, Domain hosting, and plugin friendliness is very efficient in Gatsby</li>
+</ul>
 
-3.  **Open the code and start customizing!**
+<br>
+<br>
 
-    Your site is now running at http://localhost:8000!
+## Built With
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+<ul>
+  <li>Gatsby</li>
+  <li>Contentful</li>
+  <li>React</li>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
 
-4.  **Learn more**
+<br>
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+<p>I decided to build this portfolio with the technologies above due to my expososure to them at my internship @ <a href="www.ritual.com">Ritual</a> , a multivitamin startup based out of Los Angeles, CA. I was amazed with the way content was so templated that non-technical individuals could change content on the website, and page load time was incredibly fast, so I wanted to see if I could create a portfolio that was just as performant and with content that could be easily modified.</p>
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+<br>
+<br>
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Known Issues / Planned Features:
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+<ul>
+  <li>Hamburger Menu Button + Functionality</li>
+  <li>Customized Scroll Wheel</li>
+  <li>Planning to run VQA on resizing and element layering</li>
+  <li>Currently working on an "Other Projects" component to provide a comprehensive list of my independent work.</li>
+</ul>
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+<br>
+<br>
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Contact:
 
-## 🚀 Quick start (Gatsby Cloud)
+<p><a href="">Linkedin</a> is currently the best way to reach me. Feel free to connect and please personalize your message!</p>
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+<br>
+<br>
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## Attribution
 
-# port-v5
+<p>Font Palette -</p>
+<ul>
+  <li>Open Sans: https://fonts.google.com/specimen/Open+Sans?query=open+sans</li>
+  <li>Inter: https://fonts.google.com/specimen/Inter</li>
+  <li>Roboto Mono: https://fonts.google.com/specimen/Roboto+Mono</li>
+</ul>
+
+<br>
+<p>Attribution and design credit goes to Brittany Chiang from <a href="www.brittanychiang.com">www.brittanychiang.com</a>.</p>
+
+<p>I used her website as a mockup and built it from the ground up. There are a lot of key differences between our portfolios, as she utilizes the Stylized Components plugin in Gatsby and hosts her website via Netlify whereas mine is on Gatsby Cloud.</p>
+
+<a href="#top">Back to Top ⬆️</a>
