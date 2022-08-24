@@ -40,15 +40,13 @@ const Featured = () => {
                             <OutboundLink id="github" 
                                 href="https://github.com/ronBP95/buhay_pomo" 
                                 target="_blank" 
-                                rel="noreferrer noopener"
-                                onClick={projectClick}>
+                                rel="noreferrer noopener">
                                 <FiGithub/>
                             </OutboundLink>
                             <OutboundLink id="github" 
                                 href="https://buhay-pomo.web.app/" 
                                 target="_blank" 
-                                rel="noreferrer noopener"
-                                onClick={projectClick}>
+                                rel="noreferrer noopener">
                                 <FiExternalLink/>
                             </OutboundLink>
                         </div>
