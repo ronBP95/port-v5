@@ -5,9 +5,20 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Ron Magpantay`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://ronmagpantay.com`,
   },
-    plugins: [    
+    plugins: [
+      {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+          trackingIds: [
+            "G-2M3Z1ZZ33L", // Google Analytics / GA
+          ],
+          gtagConfig: {
+            send_page_view: true,
+          },
+        },
+      },   
       {
       resolve: `gatsby-source-filesystem`,
       options: {

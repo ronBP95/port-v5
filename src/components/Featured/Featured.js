@@ -7,13 +7,10 @@ import buhay from '../../images/buhaypomo.png'
 import apod from '../../images/apod.png'
 import pokemon from '../../images/pokemon.png'
 
-// Events to be tracked
-// Project 1 Clicks (Source + Live)
-// Project 2 Clicks (Source + Live)
-// Project 3 Clicks (Source + Live)
+// Gatsby Google Analytics
+import { OutboundLink } from 'gatsby-plugin-google-gtag';
 
 const Featured = () => {
-    
     return (
         <div className='featured'>
             <div className='featuredHeader'>
@@ -40,8 +37,18 @@ const Featured = () => {
                             <p>Firebase</p>
                         </div>
                         <div className='projectSocials'>
-                            <a id="github" href="https://github.com/ronBP95/buhay_pomo" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
-                            <a id="github" href="https://buhay-pomo.web.app/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                            <OutboundLink id="github" 
+                                href="https://github.com/ronBP95/buhay_pomo" 
+                                target="_blank" 
+                                rel="noreferrer noopener">
+                                <FiGithub/>
+                            </OutboundLink>
+                            <OutboundLink id="github" 
+                                href="https://buhay-pomo.web.app/" 
+                                target="_blank" 
+                                rel="noreferrer noopener">
+                                <FiExternalLink/>
+                            </OutboundLink>
                         </div>
                     </div>
                 </div>
@@ -64,8 +71,18 @@ const Featured = () => {
                             <p>Postman</p>
                         </div>
                         <div className='offsetSocials'>
-                        <a id="github" href="https://github.com/ronBP95/just_apod" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
-                            <a id="github" href="https://rm-just-apod.herokuapp.com/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                            <OutboundLink id="github" 
+                                href="https://github.com/ronBP95/just_apod" 
+                                target="_blank" 
+                                rel="noreferrer noopener">
+                                <FiGithub/>
+                                </OutboundLink>
+                            <OutboundLink id="github" 
+                                href="https://rm-just-apod.herokuapp.com/" 
+                                target="_blank" 
+                                rel="noreferrer noopener">
+                                <FiExternalLink/>
+                            </OutboundLink>
                         </div>
                     </div>
                     <div className='offsetImageCont'>
@@ -91,8 +108,18 @@ const Featured = () => {
                             <p>CSS</p>
                         </div>
                         <div className='projectSocials'>
-                            <a id="github" href="https://github.com/ronBP95/Project-One---Pokemon" target="_blank" rel="noreferrer noopener"><FiGithub/></a>
-                            <a id="github" href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" target="_blank" rel="noreferrer noopener"><FiExternalLink/></a>
+                            <OutboundLink id="github" 
+                                href="https://github.com/ronBP95/Project-One---Pokemon" 
+                                target="_blank" 
+                                rel="noreferrer noopener">
+                                <FiGithub/>
+                            </OutboundLink>
+                            <OutboundLink id="github" 
+                                href="https://siasky.net/PACbyVZmnbuRHj3_1MqgJQ_5X9YEn8NVA0uiZ2JQ92A42g/" 
+                                target="_blank" 
+                                rel="noreferrer noopener">
+                                <FiExternalLink/>
+                            </OutboundLink>
                         </div>
                     </div>
                 </div>
