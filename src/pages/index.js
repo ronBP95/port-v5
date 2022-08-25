@@ -17,22 +17,25 @@ import Footer from "../components/Footer/Footer"
 import Social from "../components/Social/Social"
 import Name from "../components/Name/Name"
 
+
 const IndexPage = () => {
     return (
-    <div className="page">
-        <Nav />
-        <Hero />
-        <About />
-        <Worked />
-        <Featured />
-        {/* <Other /> */}
-        <Contact />
-        <Footer />
-        <div className="sidebar">
-            <Social />
-            <Name />
-        </div>
-    </div>  
+    <div>
+        <div className="page">
+            <Nav />
+            <Hero />
+            <About />
+            <Worked />
+            <Featured />
+            {/* <Other /> */}
+            <Contact />
+            <Footer />
+            <div className="sidebar">
+                <Social />
+                <Name />
+            </div>
+        </div> 
+    </div> 
     )
 }
 

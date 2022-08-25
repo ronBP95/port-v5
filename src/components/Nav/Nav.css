@@ -1,3 +1,9 @@
+.nav {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+
 .navbar {
     display: flex;
     position: fixed;
@@ -6,6 +12,7 @@
     align-items: center;
     border-bottom: 1px solid #8892b0;
     background: #0a192f;
+    background: blue;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -86,8 +93,8 @@
         display: none;
     }
     #dropdown {
-        /* display: inline; */
-        display: none;
+        display: grid;
+        cursor: pointer;
     }
 }
 
@@ -105,5 +112,77 @@
         padding-top: 20px;
         padding-bottom: 20px;
         color: lightgray;
+    }
+}
+
+/* Hamburger CSS */
+
+.hidden {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    z-index: 5000;
+    /* background-color: red; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.hamParent {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 25em;
+    /* background-color: green; */
+}
+
+.hamMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: pink;
+    height: 50vh;
+    width: 100vw;
+}
+
+.hamItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Mono';
+    font-size: 1em;
+    transition: 0.2s;
+}
+
+.hamItems:hover {
+    transition: 0.2s;
+    color: #64ffda;
+}
+
+#hamResume {
+    font-family: 'Open Sans';
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    padding: 12.5px;
+    color: #64ffda;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#hamResume:hover {
+    background-color: #233554;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 800px) {
+    .hamburger {
+        display: flex;
     }
 }
