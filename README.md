@@ -70,6 +70,6 @@
 <br>
 <p>Attribution and design credit goes to Brittany Chiang from <a href="https://www.brittanychiang.com">www.brittanychiang.com</a>.</p>
 
-<p>I used her website as a mockup and built it from the ground up. There are a lot of key differences between our portfolios, as she utilizes the Stylized Components plugin in Gatsby and hosts her website via Netlify whereas mine is on Gatsby Cloud.</p>
+<p>I used Brittany's website as a mockup and built my own iteration of it from the ground up. There are a lot of key differences between our portfolios, as she utilizes the Stylized Components plugin in Gatsby and hosts her website via Netlify whereas mine is on Gatsby Cloud and uses CSS.</p>
 
 <a href="#top">Back to Top ⬆️</a>
