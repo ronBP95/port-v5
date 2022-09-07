@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import monke from '../../images/wow.jpg'
+import monke from '../../images/wow.webp'
 import { BiRightArrow } from 'react-icons/bi'
 
 const About = () => {

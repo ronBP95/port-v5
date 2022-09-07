@@ -3,9 +3,9 @@ import './Featured.css'
 import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 // Image imports
-import buhay from '../../images/buhaypomo.png'
-import apod from '../../images/apod.png'
-import pokemon from '../../images/pokemon.png'
+import buhay from '../../images/buhaypomo.webp'
+import apod from '../../images/apod.webp'
+import pokemon from '../../images/pokemon.webp'
 
 // Gatsby Google Analytics
 import { OutboundLink } from 'gatsby-plugin-google-gtag';
@@ -86,7 +86,7 @@ const Featured = () => {
                         </div>
                     </div>
                     <div className='offsetImageCont'>
-                        <img src={apod} className="offsetImage"/>
+                        <img src={apod} className="offsetImage" layout="responsive" />
                     </div>
                 </div>
                 <div className='alignedProjects'>
