@@ -1,11 +1,53 @@
-import React from 'react';
+import * as React from 'react';
 import './Nav.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import resume from '../../images/resume.pdf'
 
+const stickyNav = {
+    display: "flex",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000,
+    justifyContent: "space-between",
+    alignItems: "center",
+    boxShadow: "0 3px 5px black",
+    background: "#0a192f",
+    width: "100%",
+    paddingTop: "20px",
+    paddingBottom: "20px",
+    color: "lightgray",
+    transition: "0.5s",
+}
+
+const navbar = {
+    display: "flex",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000,
+    justifyContent: "space-between",
+    alignItems: "center",
+    background: "#0a192f",
+    width: "100%",
+    paddingTop: "20px",
+    paddingBottom: "20px",
+    color: "lightgray",
+    transition: "0.5s",
+}
+
 const Nav = () => {
+    const [scrollPosition, setScrollPosition] = React.useState(0);
+    const handleScroll = () => {
+        const position = window.pageYOffset;
+        setScrollPosition(position);
+    }
+    React.useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    }, []);
     return (
-        <div className='navbar'>
+        <div style={scrollPosition === 0 ? navbar : stickyNav}>
             <div id="logo">
                 <div><a href='/'>R</a></div>
             </div>

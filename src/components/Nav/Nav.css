@@ -1,11 +1,10 @@
 .navbar {
     display: flex;
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 1000;
     justify-content: space-between;
     align-items: center;
-    /* border-bottom: 1px solid #8892b0; */
-    box-shadow: 0 3px 5px black;
     background: #0a192f;
     width: 100%;
     padding-top: 20px;
