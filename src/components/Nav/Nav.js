@@ -21,7 +21,7 @@ const stickyNav = {
 
 const navbar = {
     display: "flex",
-    position: "sticky",
+    position: "relative",
     top: 0,
     zIndex: 1000,
     justifyContent: "space-between",

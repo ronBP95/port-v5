@@ -7,7 +7,7 @@
     position: relative;
     /* background: yellow; */
     width: 85vw;
-    height: 100vh;
+    height: 90vh;
     min-width: 375px;
     min-height: 654px;
 }
@@ -19,7 +19,6 @@
     /* background-color: red; */
     width: 60vw;
     height: 50vh;
-    min-height: 420px;
 }
 
 #hi {
@@ -29,7 +28,7 @@
 }
 
 #name {
-    font-size: 4.5vw;
+    font-size: calc(12px + 4.5vw);
     color: white;
     margin-top: 0.3em;
     font-family: 'Inter';
@@ -46,28 +45,14 @@
     line-height: 1.5em;
     width: 50vw;
     color: #8892b0;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-top: 1em;
-    min-width: 265px;
-    min-height: 158px;
+    margin-bottom: 1em;
     font-family: 'Open Sans';
 }
 
 #company {
     color: #64ffda;
-    text-decoration: none;
-    background-image: linear-gradient(#64ffda, #64ffda);
-    background-size: 0% 1px;
-    background-position-y: 100%;
-    background-position-x: 49%;
-    background-repeat: no-repeat;
-    transition: background-size 0.3s ease-in-out;
-}
-
-#company:hover,
-#compnay:focus,
-#company:active {
-    background-size: 80% 1px;
 }
 
 #heroButton {
@@ -78,7 +63,7 @@
     border-radius: 5px;
     width: 12.5em;
     font-size: 12pt;
-    margin-top: 2em;
+    margin-top: 1rem;
     padding: 15px;
     color: #64ffda;
     transition: 0.3s;
@@ -93,29 +78,25 @@
 
 @media screen and (max-width: 800px) {
     #name {
-        font-size: 8vw;
         color: white;
         margin-top: 0.3em;
     }
 }
 
-@media screen and (max-width: 600px) {
-    #heroText {
-        margin-bottom: 2em;
-    }
-}
-
 @media screen and (max-width: 500px) {
+    .heropage {
+        height: 70vh;
+        min-height: 0;
+    }
     .heroCont {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         /* background-color: red; */
         width: 60vw;
-        height: 45vh;
+        height: auto;
     }
     #name {
-        font-size: 8vw;
         color: white;
         margin-top: 0.3em;
     }
@@ -127,8 +108,6 @@
         border-radius: 5px;
         width: 40vw;
         font-size: 3vw;
-        margin-top: 3rem;
-        padding-top: 1rem;
         padding-bottom: 1rem;
         color: #64ffda;
         transition: 0.3s;
