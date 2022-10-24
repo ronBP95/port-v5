@@ -10,6 +10,7 @@
     height: 90vh;
     min-width: 375px;
     min-height: 654px;
+    margin-bottom: 10px;
 }
 
 .heroCont {
@@ -85,7 +86,6 @@
 
 @media screen and (max-width: 500px) {
     .heropage {
-        height: 70vh;
         min-height: 0;
     }
     .heroCont {
