@@ -82,11 +82,18 @@
 
 .modal {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
     top: 0;
     right: 0;
     background: #233554;
     height: 100vh;
     width: 70%;
+}
+
+.modalIcon {
+    font-size: 24pt;
 }
 
 .hidden { 

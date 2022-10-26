@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './Nav.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { AiFillCloseCircle } from 'react-icons/ai'
 import resume from '../../images/resume.pdf'
 
 const stickyNav = {
@@ -70,6 +71,7 @@ const Nav = () => {
             </div>
             <div className={toggle ? "modal" : "hidden"}>
                 <p>Modal Content</p>
+                <div className="modalIcon"><AiFillCloseCircle /></div>
             </div>
         </div>
     )
