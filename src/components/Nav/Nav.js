@@ -46,6 +46,10 @@ const Nav = () => {
             window.removeEventListener('scroll', handleScroll)
         }
     }, []);
+
+    const handleToggle = () => {
+        console.log("modal opened")
+    }
     return (
         <div style={scrollPosition === 0 ? navbar : stickyNav}>
             <div id="logo">
@@ -59,7 +63,7 @@ const Nav = () => {
                 <a id="resumebutton" target='_blank' href={resume}>Resume</a>
             </ul>
             <div id="dropdown">
-                <p><GiHamburgerMenu /></p>
+                <p><GiHamburgerMenu onClick={handleToggle}/></p>
             </div>
         </div>
     )
