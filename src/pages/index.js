@@ -12,6 +12,7 @@ import Featured from "../components/Featured/Featured"
 import Other from "../components/Other/Other"
 import Contact from "../components/Contact/Contact"
 import Footer from "../components/Footer/Footer"
+import NavModal from '../components/NavModal/NavModal'
 
 // sidebars
 import Social from "../components/Social/Social"
@@ -21,6 +22,7 @@ const IndexPage = () => {
     return (
     <div className="page">
         <Nav />
+        <NavModal />
         <Hero />
         <About />
         <Worked />
