@@ -83,21 +83,62 @@
 .modal {
     position: fixed;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 15px;
     top: 0;
     right: 0;
     background: #233554;
-    height: 100vh;
+    height: 97%;
     width: 70%;
 }
 
 .modalIcon {
+    display: flex;
+    justify-content: flex-end;
     font-size: 24pt;
+    cursor: pointer;
 }
 
 .hidden { 
     display: none;
+}
+
+.modalOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: "Roboto Mono";
+}
+
+#aboutAnchor, #expAnchor, #workAnchor, #contactAnchor {
+    transition: 0.4s;
+}
+
+#aboutAnchor:hover, #expAnchor:hover, #workAnchor:hover, #contactAnchor:hover {
+    color: #64ffda;
+    transition: 0.4s;
+}
+
+#resumeAnchor {
+    border: 1px solid #64ffda;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+#resumeAnchor:hover {
+    background-color: #0a192f;
+    transition: 0.3s;
+}
+
+.modalNum {
+    color: #64ffda;
+}
+
+#gutter {
+    height: 20%;
 }
 
 @media screen and (max-width: 800px) {

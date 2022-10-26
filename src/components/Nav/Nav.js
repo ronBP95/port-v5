@@ -70,8 +70,17 @@ const Nav = () => {
                 <p><GiHamburgerMenu onClick={handleToggle}/></p>
             </div>
             <div className={toggle ? "modal" : "hidden"}>
-                <p>Modal Content</p>
-                <div className="modalIcon"><AiFillCloseCircle /></div>
+                <div>
+                    <div className="modalIcon"><AiFillCloseCircle onClick={handleToggle}/></div>
+                </div>
+                <div className='modalOptions'>
+                    <a id="aboutAnchor" href='/#about' onClick={handleToggle}><span className='modalNum'>01.</span> About</a>
+                    <a id="expAnchor" href='/#experience' onClick={handleToggle}><span className='modalNum'>02.</span> Experience</a>
+                    <a id="workAnchor" href='/#projects' onClick={handleToggle}><span className='modalNum'>03.</span> Work</a>
+                    <a id="contactAnchor" href='/#contact' onClick={handleToggle}><span className='modalNum'>04.</span> Contact</a>
+                    <a id="resumeAnchor" href={resume}>Resume</a>
+                </div>
+                <div id="gutter"></div>
             </div>
         </div>
     )
