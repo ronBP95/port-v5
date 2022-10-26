@@ -47,9 +47,12 @@ const Nav = () => {
         }
     }, []);
 
+    const [toggle, setToggle] = React.useState(false)
+
     const handleToggle = () => {
-        console.log("modal opened")
+        setToggle(!toggle)
     }
+
     return (
         <div style={scrollPosition === 0 ? navbar : stickyNav}>
             <div id="logo">
@@ -64,6 +67,9 @@ const Nav = () => {
             </ul>
             <div id="dropdown">
                 <p><GiHamburgerMenu onClick={handleToggle}/></p>
+            </div>
+            <div className={toggle ? "modal" : "hidden"}>
+                <p>Modal Content</p>
             </div>
         </div>
     )

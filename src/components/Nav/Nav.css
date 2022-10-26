@@ -78,6 +78,21 @@
     cursor: pointer;
 }
 
+/* Modal Css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #233554;
+    height: 100vh;
+    width: 70%;
+}
+
+.hidden { 
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .navitems {
         display: none;
