@@ -31,7 +31,7 @@ if (activeTab === 0 || 1 || 2 || 3) {
 }
 
     return (
-        <div className='worked'>
+        <div id='worked'>
             <div className='workedHeader'>
                 <p><span id="workednum">02.</span> Where I've Worked</p>
                 <div id='workline'></div>
