@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 900px) {
     #about {
-        height: 110vh;
+        height: auto;
         min-width: 0;
     }
     .aboutCont {
