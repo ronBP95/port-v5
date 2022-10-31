@@ -6,7 +6,7 @@
 
 ## About the Project
 
-<p>This is the most recent iteration of my portfolio! This is currently v5. The first three versions of my portfolio never went into production and the v4 production was built using create-react-app and hosted on Github pages. I decided to go for another go at improving on my portfolio to help me learn new technologies and make it "change-friendly". My last portfolio wasn't very templated (which would require a lot of configuration for adding new content), the design was rough around the edges, the code was a mess, and the resizing isn't nearly as fluid as it is at ronmagpantay.com</p>
+<p>This is the most recent iteration of my portfolio! This is currently v5. The first three versions of my portfolio never went into production and the v4 production was built using create-react-app and hosted on Github pages. I decided to go for another go at improving on my portfolio to help me learn new technologies and make it "change-friendly". My last portfolio wasn't very templated (which would require a lot of configuration for adding new content), the design was rough around the edges, the code was a mess, and the resizing isn't nearly as fluid as it is at ronmagpantay.com. I am currently working on adding my recent projects, lazy loading and adding animations.</p>
 
 <br>
 <br>
@@ -73,4 +73,4 @@
 <p>I used Brittany's website as a mockup and built my own iteration of it from the ground up. There are a lot of key differences between our portfolios, as she utilizes the Stylized Components plugin in Gatsby and hosts her website via Netlify whereas mine is on Gatsby Cloud and uses CSS.</p>
 
 <a href="#top">Back to Top ⬆️</a>
-"# big_store" 
+"# big_store"
