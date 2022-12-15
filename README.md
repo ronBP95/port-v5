@@ -72,5 +72,7 @@
 
 <p>I used Brittany's website as a mockup and built my own iteration of it from the ground up. There are a lot of key differences between our portfolios, as she utilizes the Stylized Components plugin in Gatsby and hosts her website via Netlify whereas mine is on Gatsby Cloud and uses CSS.</p>
 
+<p>Upcoming Changes - The site is in progress and will include new sections, projects, and other features.</p>
+
 <a href="#top">Back to Top ⬆️</a>
 "# big_store"
